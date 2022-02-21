@@ -1,6 +1,6 @@
 //Mel: 25/01/22 Declare global variables for these constants.
 const nftStorageApiKey =
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweGM5RTM5RDM4RDA0NjI0MTIzMTA2MzgyMjUzMjE2M0EwODM1ZjA5MUIiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTYzNjcxNTg3OTMxOCwibmFtZSI6ImV0ZXJuaWFsc19oYWNrIn0.IxRDv78NEch7JRw49k_5Ww5wydnzKsYjDJk56iDeJG4";
+  "enter your nft.storage API key here";
 //Mel: End
 
 (function ($) {
