@@ -10,7 +10,7 @@
 ## How to use it with Aurora EVM
 
 -You might already know that Aurora is the EVM for NEAR protocol which allows you to run Ethereum smart contracts written with Solidity on NEAR blockchain. If you want to know more, read the official doc -> https://doc.aurora.dev/
-- To set up your Metamask with Aurora testnet, just go to Chainlist and search for "Aurora Testnet" and click on the "Connect Metamask" button. See -> https://ibb.co/T2QCZcY
+- To set up your Metamask with Aurora testnet, just go to https://chainlist.org and search for "Aurora Testnet" and click on the "Connect Metamask" button. See -> https://ibb.co/T2QCZcY
 - Go get some test ETH tokens for Aurora Testnet. Go to -> https://aurora.dev/faucet
 
 ## How to use
