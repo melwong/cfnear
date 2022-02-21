@@ -1,0 +1,489 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 11:24:15
+* VERSION: 1.4.3
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.25                                |7.4.25
+OS__________________: Linux                                 |Linux
+CREATED_____________: 2021-12-15 23:12:14
+WP VERSION__________: 5.8.2
+DUP VERSION_________: 1.4.3
+DB__________________: 10.3.32
+DB TABLES___________: 23
+DB ROWS_____________: 5,076
+DB FILE SIZE________: 4.17MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.25 | SAPI: fpm-fcgi
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache
+DOC ROOT____________: "/home/bf8d3b5/lifram.org"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "https://lifram.org/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/home/bf8d3b5/lifram.org/20211216_eternials_[HASH]_20211215231214_archive.zip"
+SIZE________________: 103.83MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 11:24:46 - RUNTIME: 30.6967 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 11:26:38
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.3.32 -- Build Server: 10.3.32
+FILE SIZE:	dup-database__[HASH].sql (2.77MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE:	NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/home/bf8d3b5/lifram.org/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	209
+
+et_awpcp_ad_regions: (0)
+et_awpcp_adfees: (1)
+et_awpcp_admeta: (0)
+et_awpcp_credit_plans: (0)
+et_awpcp_payments: (0)
+et_awpcp_tasks: (0)
+et_commentmeta: (0)
+et_comments: (1)
+et_duplicator_packages: (0)
+et_links: (0)
+et_loginizer_logs: (0)
+et_options: (323)
+et_postmeta: (3616)
+et_posts: (923)
+et_rtcl_sessions: (1)
+et_term_relationships: (72)
+et_term_taxonomy: (14)
+et_termmeta: (1)
+et_terms: (14)
+et_usermeta: (62)
+et_users: (3)
+et_wpvivid_scan_result: (0)
+et_wpvivid_unused_uploads_files: (0)
+Removed '45' cache/transient rows
+
+INSERT DATA RUNTIME: 0.2283 sec.
+STEP-2 COMPLETE @ 11:26:38 - RUNTIME: 0.2304 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 11:27:01
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Lifram"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/bf8d3b5/eternials.tk"
+path_new______________: "/home/bf8d3b5/lifram.org"
+siteurl_______________: "https://lifram.org"
+url_old_______________: "https://eternials.tk"
+url_new_______________: "https://lifram.org"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "et_awpcp_ad_regions"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_awpcp_adfees"_________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/bf8d3b5/eternials.tk" ======================> "/home/bf8d3b5/lifram.org"
+	SEARCH  2:"\/home\/bf8d3b5\/eternials.tk" ===================> "\/home\/bf8d3b5\/lifram.org"
+	SEARCH  3:"%2Fhome%2Fbf8d3b5%2Feternials.tk" ================> "%2Fhome%2Fbf8d3b5%2Flifram.org"
+	SEARCH  4:"\home\bf8d3b5\eternials.tk" ======================> "/home/bf8d3b5/lifram.org"
+	SEARCH  5:"\\home\\bf8d3b5\\eternials.tk" ===================> "\/home\/bf8d3b5\/lifram.org"
+	SEARCH  6:"%5Chome%5Cbf8d3b5%5Ceternials.tk" ================> "%2Fhome%2Fbf8d3b5%2Flifram.org"
+	SEARCH  7:"//eternials.tk" ==================================> "//lifram.org"
+	SEARCH  8:"\/\/eternials.tk" ================================> "\/\/lifram.org"
+	SEARCH  9:"%2F%2Feternials.tk" ==============================> "%2F%2Flifram.org"
+	SEARCH 10:"//www.eternials.tk" ==============================> "//lifram.org"
+	SEARCH 11:"\/\/www.eternials.tk" ============================> "\/\/lifram.org"
+	SEARCH 12:"%2F%2Fwww.eternials.tk" ==========================> "%2F%2Flifram.org"
+	SEARCH 13:"http://lifram.org" ===============================> "https://lifram.org"
+	SEARCH 14:"http:\/\/lifram.org" =============================> "https:\/\/lifram.org"
+	SEARCH 15:"http%3A%2F%2Flifram.org" =========================> "https%3A%2F%2Flifram.org"
+
+EVALUATE TABLE: "et_awpcp_admeta"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_awpcp_credit_plans"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_awpcp_payments"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_awpcp_tasks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/bf8d3b5/eternials.tk" ======================> "/home/bf8d3b5/lifram.org"
+	SEARCH  2:"\/home\/bf8d3b5\/eternials.tk" ===================> "\/home\/bf8d3b5\/lifram.org"
+	SEARCH  3:"%2Fhome%2Fbf8d3b5%2Feternials.tk" ================> "%2Fhome%2Fbf8d3b5%2Flifram.org"
+	SEARCH  4:"\home\bf8d3b5\eternials.tk" ======================> "/home/bf8d3b5/lifram.org"
+	SEARCH  5:"\\home\\bf8d3b5\\eternials.tk" ===================> "\/home\/bf8d3b5\/lifram.org"
+	SEARCH  6:"%5Chome%5Cbf8d3b5%5Ceternials.tk" ================> "%2Fhome%2Fbf8d3b5%2Flifram.org"
+	SEARCH  7:"//eternials.tk" ==================================> "//lifram.org"
+	SEARCH  8:"\/\/eternials.tk" ================================> "\/\/lifram.org"
+	SEARCH  9:"%2F%2Feternials.tk" ==============================> "%2F%2Flifram.org"
+	SEARCH 10:"//www.eternials.tk" ==============================> "//lifram.org"
+	SEARCH 11:"\/\/www.eternials.tk" ============================> "\/\/lifram.org"
+	SEARCH 12:"%2F%2Fwww.eternials.tk" ==========================> "%2F%2Flifram.org"
+	SEARCH 13:"http://lifram.org" ===============================> "https://lifram.org"
+	SEARCH 14:"http:\/\/lifram.org" =============================> "https:\/\/lifram.org"
+	SEARCH 15:"http%3A%2F%2Flifram.org" =========================> "https%3A%2F%2Flifram.org"
+
+EVALUATE TABLE: "et_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_loginizer_logs"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_options"______________________________________[ROWS:   323][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/bf8d3b5/eternials.tk" ======================> "/home/bf8d3b5/lifram.org"
+	SEARCH  2:"\/home\/bf8d3b5\/eternials.tk" ===================> "\/home\/bf8d3b5\/lifram.org"
+	SEARCH  3:"%2Fhome%2Fbf8d3b5%2Feternials.tk" ================> "%2Fhome%2Fbf8d3b5%2Flifram.org"
+	SEARCH  4:"\home\bf8d3b5\eternials.tk" ======================> "/home/bf8d3b5/lifram.org"
+	SEARCH  5:"\\home\\bf8d3b5\\eternials.tk" ===================> "\/home\/bf8d3b5\/lifram.org"
+	SEARCH  6:"%5Chome%5Cbf8d3b5%5Ceternials.tk" ================> "%2Fhome%2Fbf8d3b5%2Flifram.org"
+	SEARCH  7:"//eternials.tk" ==================================> "//lifram.org"
+	SEARCH  8:"\/\/eternials.tk" ================================> "\/\/lifram.org"
+	SEARCH  9:"%2F%2Feternials.tk" ==============================> "%2F%2Flifram.org"
+	SEARCH 10:"//www.eternials.tk" ==============================> "//lifram.org"
+	SEARCH 11:"\/\/www.eternials.tk" ============================> "\/\/lifram.org"
+	SEARCH 12:"%2F%2Fwww.eternials.tk" ==========================> "%2F%2Flifram.org"
+	SEARCH 13:"http://lifram.org" ===============================> "https://lifram.org"
+	SEARCH 14:"http:\/\/lifram.org" =============================> "https:\/\/lifram.org"
+	SEARCH 15:"http%3A%2F%2Flifram.org" =========================> "https%3A%2F%2Flifram.org"
+
+EVALUATE TABLE: "et_postmeta"_____________________________________[ROWS:  3616][PG:   2][SCAN:text columns]
+	SEARCH  1:"/home/bf8d3b5/eternials.tk" ======================> "/home/bf8d3b5/lifram.org"
+	SEARCH  2:"\/home\/bf8d3b5\/eternials.tk" ===================> "\/home\/bf8d3b5\/lifram.org"
+	SEARCH  3:"%2Fhome%2Fbf8d3b5%2Feternials.tk" ================> "%2Fhome%2Fbf8d3b5%2Flifram.org"
+	SEARCH  4:"\home\bf8d3b5\eternials.tk" ======================> "/home/bf8d3b5/lifram.org"
+	SEARCH  5:"\\home\\bf8d3b5\\eternials.tk" ===================> "\/home\/bf8d3b5\/lifram.org"
+	SEARCH  6:"%5Chome%5Cbf8d3b5%5Ceternials.tk" ================> "%2Fhome%2Fbf8d3b5%2Flifram.org"
+	SEARCH  7:"//eternials.tk" ==================================> "//lifram.org"
+	SEARCH  8:"\/\/eternials.tk" ================================> "\/\/lifram.org"
+	SEARCH  9:"%2F%2Feternials.tk" ==============================> "%2F%2Flifram.org"
+	SEARCH 10:"//www.eternials.tk" ==============================> "//lifram.org"
+	SEARCH 11:"\/\/www.eternials.tk" ============================> "\/\/lifram.org"
+	SEARCH 12:"%2F%2Fwww.eternials.tk" ==========================> "%2F%2Flifram.org"
+	SEARCH 13:"http://lifram.org" ===============================> "https://lifram.org"
+	SEARCH 14:"http:\/\/lifram.org" =============================> "https:\/\/lifram.org"
+	SEARCH 15:"http%3A%2F%2Flifram.org" =========================> "https%3A%2F%2Flifram.org"
+
+EVALUATE TABLE: "et_posts"________________________________________[ROWS:   923][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/bf8d3b5/eternials.tk" ======================> "/home/bf8d3b5/lifram.org"
+	SEARCH  2:"\/home\/bf8d3b5\/eternials.tk" ===================> "\/home\/bf8d3b5\/lifram.org"
+	SEARCH  3:"%2Fhome%2Fbf8d3b5%2Feternials.tk" ================> "%2Fhome%2Fbf8d3b5%2Flifram.org"
+	SEARCH  4:"\home\bf8d3b5\eternials.tk" ======================> "/home/bf8d3b5/lifram.org"
+	SEARCH  5:"\\home\\bf8d3b5\\eternials.tk" ===================> "\/home\/bf8d3b5\/lifram.org"
+	SEARCH  6:"%5Chome%5Cbf8d3b5%5Ceternials.tk" ================> "%2Fhome%2Fbf8d3b5%2Flifram.org"
+	SEARCH  7:"//eternials.tk" ==================================> "//lifram.org"
+	SEARCH  8:"\/\/eternials.tk" ================================> "\/\/lifram.org"
+	SEARCH  9:"%2F%2Feternials.tk" ==============================> "%2F%2Flifram.org"
+	SEARCH 10:"//www.eternials.tk" ==============================> "//lifram.org"
+	SEARCH 11:"\/\/www.eternials.tk" ============================> "\/\/lifram.org"
+	SEARCH 12:"%2F%2Fwww.eternials.tk" ==========================> "%2F%2Flifram.org"
+	SEARCH 13:"http://lifram.org" ===============================> "https://lifram.org"
+	SEARCH 14:"http:\/\/lifram.org" =============================> "https:\/\/lifram.org"
+	SEARCH 15:"http%3A%2F%2Flifram.org" =========================> "https%3A%2F%2Flifram.org"
+
+EVALUATE TABLE: "et_rtcl_sessions"________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/bf8d3b5/eternials.tk" ======================> "/home/bf8d3b5/lifram.org"
+	SEARCH  2:"\/home\/bf8d3b5\/eternials.tk" ===================> "\/home\/bf8d3b5\/lifram.org"
+	SEARCH  3:"%2Fhome%2Fbf8d3b5%2Feternials.tk" ================> "%2Fhome%2Fbf8d3b5%2Flifram.org"
+	SEARCH  4:"\home\bf8d3b5\eternials.tk" ======================> "/home/bf8d3b5/lifram.org"
+	SEARCH  5:"\\home\\bf8d3b5\\eternials.tk" ===================> "\/home\/bf8d3b5\/lifram.org"
+	SEARCH  6:"%5Chome%5Cbf8d3b5%5Ceternials.tk" ================> "%2Fhome%2Fbf8d3b5%2Flifram.org"
+	SEARCH  7:"//eternials.tk" ==================================> "//lifram.org"
+	SEARCH  8:"\/\/eternials.tk" ================================> "\/\/lifram.org"
+	SEARCH  9:"%2F%2Feternials.tk" ==============================> "%2F%2Flifram.org"
+	SEARCH 10:"//www.eternials.tk" ==============================> "//lifram.org"
+	SEARCH 11:"\/\/www.eternials.tk" ============================> "\/\/lifram.org"
+	SEARCH 12:"%2F%2Fwww.eternials.tk" ==========================> "%2F%2Flifram.org"
+	SEARCH 13:"http://lifram.org" ===============================> "https://lifram.org"
+	SEARCH 14:"http:\/\/lifram.org" =============================> "https:\/\/lifram.org"
+	SEARCH 15:"http%3A%2F%2Flifram.org" =========================> "https%3A%2F%2Flifram.org"
+
+EVALUATE TABLE: "et_term_relationships"___________________________[ROWS:    72][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/bf8d3b5/eternials.tk" ======================> "/home/bf8d3b5/lifram.org"
+	SEARCH  2:"\/home\/bf8d3b5\/eternials.tk" ===================> "\/home\/bf8d3b5\/lifram.org"
+	SEARCH  3:"%2Fhome%2Fbf8d3b5%2Feternials.tk" ================> "%2Fhome%2Fbf8d3b5%2Flifram.org"
+	SEARCH  4:"\home\bf8d3b5\eternials.tk" ======================> "/home/bf8d3b5/lifram.org"
+	SEARCH  5:"\\home\\bf8d3b5\\eternials.tk" ===================> "\/home\/bf8d3b5\/lifram.org"
+	SEARCH  6:"%5Chome%5Cbf8d3b5%5Ceternials.tk" ================> "%2Fhome%2Fbf8d3b5%2Flifram.org"
+	SEARCH  7:"//eternials.tk" ==================================> "//lifram.org"
+	SEARCH  8:"\/\/eternials.tk" ================================> "\/\/lifram.org"
+	SEARCH  9:"%2F%2Feternials.tk" ==============================> "%2F%2Flifram.org"
+	SEARCH 10:"//www.eternials.tk" ==============================> "//lifram.org"
+	SEARCH 11:"\/\/www.eternials.tk" ============================> "\/\/lifram.org"
+	SEARCH 12:"%2F%2Fwww.eternials.tk" ==========================> "%2F%2Flifram.org"
+	SEARCH 13:"http://lifram.org" ===============================> "https://lifram.org"
+	SEARCH 14:"http:\/\/lifram.org" =============================> "https:\/\/lifram.org"
+	SEARCH 15:"http%3A%2F%2Flifram.org" =========================> "https%3A%2F%2Flifram.org"
+
+EVALUATE TABLE: "et_term_taxonomy"________________________________[ROWS:    14][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/bf8d3b5/eternials.tk" ======================> "/home/bf8d3b5/lifram.org"
+	SEARCH  2:"\/home\/bf8d3b5\/eternials.tk" ===================> "\/home\/bf8d3b5\/lifram.org"
+	SEARCH  3:"%2Fhome%2Fbf8d3b5%2Feternials.tk" ================> "%2Fhome%2Fbf8d3b5%2Flifram.org"
+	SEARCH  4:"\home\bf8d3b5\eternials.tk" ======================> "/home/bf8d3b5/lifram.org"
+	SEARCH  5:"\\home\\bf8d3b5\\eternials.tk" ===================> "\/home\/bf8d3b5\/lifram.org"
+	SEARCH  6:"%5Chome%5Cbf8d3b5%5Ceternials.tk" ================> "%2Fhome%2Fbf8d3b5%2Flifram.org"
+	SEARCH  7:"//eternials.tk" ==================================> "//lifram.org"
+	SEARCH  8:"\/\/eternials.tk" ================================> "\/\/lifram.org"
+	SEARCH  9:"%2F%2Feternials.tk" ==============================> "%2F%2Flifram.org"
+	SEARCH 10:"//www.eternials.tk" ==============================> "//lifram.org"
+	SEARCH 11:"\/\/www.eternials.tk" ============================> "\/\/lifram.org"
+	SEARCH 12:"%2F%2Fwww.eternials.tk" ==========================> "%2F%2Flifram.org"
+	SEARCH 13:"http://lifram.org" ===============================> "https://lifram.org"
+	SEARCH 14:"http:\/\/lifram.org" =============================> "https:\/\/lifram.org"
+	SEARCH 15:"http%3A%2F%2Flifram.org" =========================> "https%3A%2F%2Flifram.org"
+
+EVALUATE TABLE: "et_termmeta"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/bf8d3b5/eternials.tk" ======================> "/home/bf8d3b5/lifram.org"
+	SEARCH  2:"\/home\/bf8d3b5\/eternials.tk" ===================> "\/home\/bf8d3b5\/lifram.org"
+	SEARCH  3:"%2Fhome%2Fbf8d3b5%2Feternials.tk" ================> "%2Fhome%2Fbf8d3b5%2Flifram.org"
+	SEARCH  4:"\home\bf8d3b5\eternials.tk" ======================> "/home/bf8d3b5/lifram.org"
+	SEARCH  5:"\\home\\bf8d3b5\\eternials.tk" ===================> "\/home\/bf8d3b5\/lifram.org"
+	SEARCH  6:"%5Chome%5Cbf8d3b5%5Ceternials.tk" ================> "%2Fhome%2Fbf8d3b5%2Flifram.org"
+	SEARCH  7:"//eternials.tk" ==================================> "//lifram.org"
+	SEARCH  8:"\/\/eternials.tk" ================================> "\/\/lifram.org"
+	SEARCH  9:"%2F%2Feternials.tk" ==============================> "%2F%2Flifram.org"
+	SEARCH 10:"//www.eternials.tk" ==============================> "//lifram.org"
+	SEARCH 11:"\/\/www.eternials.tk" ============================> "\/\/lifram.org"
+	SEARCH 12:"%2F%2Fwww.eternials.tk" ==========================> "%2F%2Flifram.org"
+	SEARCH 13:"http://lifram.org" ===============================> "https://lifram.org"
+	SEARCH 14:"http:\/\/lifram.org" =============================> "https:\/\/lifram.org"
+	SEARCH 15:"http%3A%2F%2Flifram.org" =========================> "https%3A%2F%2Flifram.org"
+
+EVALUATE TABLE: "et_terms"________________________________________[ROWS:    14][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/bf8d3b5/eternials.tk" ======================> "/home/bf8d3b5/lifram.org"
+	SEARCH  2:"\/home\/bf8d3b5\/eternials.tk" ===================> "\/home\/bf8d3b5\/lifram.org"
+	SEARCH  3:"%2Fhome%2Fbf8d3b5%2Feternials.tk" ================> "%2Fhome%2Fbf8d3b5%2Flifram.org"
+	SEARCH  4:"\home\bf8d3b5\eternials.tk" ======================> "/home/bf8d3b5/lifram.org"
+	SEARCH  5:"\\home\\bf8d3b5\\eternials.tk" ===================> "\/home\/bf8d3b5\/lifram.org"
+	SEARCH  6:"%5Chome%5Cbf8d3b5%5Ceternials.tk" ================> "%2Fhome%2Fbf8d3b5%2Flifram.org"
+	SEARCH  7:"//eternials.tk" ==================================> "//lifram.org"
+	SEARCH  8:"\/\/eternials.tk" ================================> "\/\/lifram.org"
+	SEARCH  9:"%2F%2Feternials.tk" ==============================> "%2F%2Flifram.org"
+	SEARCH 10:"//www.eternials.tk" ==============================> "//lifram.org"
+	SEARCH 11:"\/\/www.eternials.tk" ============================> "\/\/lifram.org"
+	SEARCH 12:"%2F%2Fwww.eternials.tk" ==========================> "%2F%2Flifram.org"
+	SEARCH 13:"http://lifram.org" ===============================> "https://lifram.org"
+	SEARCH 14:"http:\/\/lifram.org" =============================> "https:\/\/lifram.org"
+	SEARCH 15:"http%3A%2F%2Flifram.org" =========================> "https%3A%2F%2Flifram.org"
+
+EVALUATE TABLE: "et_usermeta"_____________________________________[ROWS:    62][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/bf8d3b5/eternials.tk" ======================> "/home/bf8d3b5/lifram.org"
+	SEARCH  2:"\/home\/bf8d3b5\/eternials.tk" ===================> "\/home\/bf8d3b5\/lifram.org"
+	SEARCH  3:"%2Fhome%2Fbf8d3b5%2Feternials.tk" ================> "%2Fhome%2Fbf8d3b5%2Flifram.org"
+	SEARCH  4:"\home\bf8d3b5\eternials.tk" ======================> "/home/bf8d3b5/lifram.org"
+	SEARCH  5:"\\home\\bf8d3b5\\eternials.tk" ===================> "\/home\/bf8d3b5\/lifram.org"
+	SEARCH  6:"%5Chome%5Cbf8d3b5%5Ceternials.tk" ================> "%2Fhome%2Fbf8d3b5%2Flifram.org"
+	SEARCH  7:"//eternials.tk" ==================================> "//lifram.org"
+	SEARCH  8:"\/\/eternials.tk" ================================> "\/\/lifram.org"
+	SEARCH  9:"%2F%2Feternials.tk" ==============================> "%2F%2Flifram.org"
+	SEARCH 10:"//www.eternials.tk" ==============================> "//lifram.org"
+	SEARCH 11:"\/\/www.eternials.tk" ============================> "\/\/lifram.org"
+	SEARCH 12:"%2F%2Fwww.eternials.tk" ==========================> "%2F%2Flifram.org"
+	SEARCH 13:"http://lifram.org" ===============================> "https://lifram.org"
+	SEARCH 14:"http:\/\/lifram.org" =============================> "https:\/\/lifram.org"
+	SEARCH 15:"http%3A%2F%2Flifram.org" =========================> "https%3A%2F%2Flifram.org"
+
+EVALUATE TABLE: "et_users"________________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/bf8d3b5/eternials.tk" ======================> "/home/bf8d3b5/lifram.org"
+	SEARCH  2:"\/home\/bf8d3b5\/eternials.tk" ===================> "\/home\/bf8d3b5\/lifram.org"
+	SEARCH  3:"%2Fhome%2Fbf8d3b5%2Feternials.tk" ================> "%2Fhome%2Fbf8d3b5%2Flifram.org"
+	SEARCH  4:"\home\bf8d3b5\eternials.tk" ======================> "/home/bf8d3b5/lifram.org"
+	SEARCH  5:"\\home\\bf8d3b5\\eternials.tk" ===================> "\/home\/bf8d3b5\/lifram.org"
+	SEARCH  6:"%5Chome%5Cbf8d3b5%5Ceternials.tk" ================> "%2Fhome%2Fbf8d3b5%2Flifram.org"
+	SEARCH  7:"//eternials.tk" ==================================> "//lifram.org"
+	SEARCH  8:"\/\/eternials.tk" ================================> "\/\/lifram.org"
+	SEARCH  9:"%2F%2Feternials.tk" ==============================> "%2F%2Flifram.org"
+	SEARCH 10:"//www.eternials.tk" ==============================> "//lifram.org"
+	SEARCH 11:"\/\/www.eternials.tk" ============================> "\/\/lifram.org"
+	SEARCH 12:"%2F%2Fwww.eternials.tk" ==========================> "%2F%2Flifram.org"
+	SEARCH 13:"http://lifram.org" ===============================> "https://lifram.org"
+	SEARCH 14:"http:\/\/lifram.org" =============================> "https:\/\/lifram.org"
+	SEARCH 15:"http%3A%2F%2Flifram.org" =========================> "https%3A%2F%2Flifram.org"
+
+EVALUATE TABLE: "et_wpvivid_scan_result"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_wpvivid_unused_uploads_files"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:23 	|	 Rows:5031 	|	 Cells:37659 
+UPDATED:	Tables:4 	|	 Rows:947 	|	 Cells:959 
+ERRORS:		0 
+RUNTIME:	0.190800 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => simple-google-recaptcha/simple-google-recaptcha.php
+    [1] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 11:27:01 - RUNTIME: 0.2093 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

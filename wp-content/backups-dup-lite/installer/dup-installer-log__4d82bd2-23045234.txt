@@ -1,0 +1,743 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 04:57:48
+* VERSION: 1.4.3
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.25                                |7.4.25
+OS__________________: Linux                                 |WINNT
+CREATED_____________: 2021-12-23 04:52:34
+WP VERSION__________: 5.8.2
+DUP VERSION_________: 1.4.3
+DB__________________: 10.3.32
+DB TABLES___________: 49
+DB ROWS_____________: 5,089
+DB FILE SIZE________: 3.91MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.25 | SAPI: cgi-fcgi
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.35 (Win64) OpenSSL/1.1.1b mod_fcgid/2.3.9
+DOC ROOT____________: "C:/laragon/www/lifram"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://lifram.test/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/laragon/www/lifram/20211223_lifram_[HASH]_20211223045234_archive.zip"
+SIZE________________: 1.44MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' backed-up to .htaccess-211223045748-61c401ccd31c9-duplicator.bak
+- PASS: Existing Apache '.htaccess' was removed
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/laragon/www/lifram/20211223_lifram_[HASH]_20211223045234_archive.zip"
+SIZE________________: 1.44MBFile timestamp set to Current: 2021-12-23 04:57:48
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 04:57:49 - RUNTIME: 0.1311 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 04:58:10
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.24 -- Build Server: 10.3.32
+FILE SIZE:	dup-database__[HASH].sql (3.64MB)
+TIMEOUT:	5000
+MAXPACK:	134217728
+SQLMODE:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[C:/laragon/www/lifram/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [5.7.24] is less than the build version [10.3.32].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	429
+
+et_actionscheduler_actions: (4)
+et_actionscheduler_claims: (0)
+et_actionscheduler_groups: (2)
+et_actionscheduler_logs: (10)
+et_awpcp_ad_regions: (0)
+et_awpcp_adfees: (1)
+et_awpcp_admeta: (0)
+et_awpcp_credit_plans: (0)
+et_awpcp_payments: (0)
+et_awpcp_tasks: (0)
+et_commentmeta: (0)
+et_comments: (1)
+et_duplicator_packages: (0)
+et_links: (0)
+et_loginizer_logs: (0)
+et_options: (345)
+et_postmeta: (3391)
+et_posts: (845)
+et_rtcl_sessions: (1)
+et_term_relationships: (70)
+et_term_taxonomy: (14)
+et_termmeta: (1)
+et_terms: (14)
+et_usermeta: (62)
+et_users: (3)
+et_wfblockediplog: (0)
+et_wfblocks7: (0)
+et_wfconfig: (240)
+et_wfcrawlers: (2)
+et_wffilechanges: (0)
+et_wffilemods: (0)
+et_wfhits: (0)
+et_wfhoover: (0)
+et_wfissues: (7)
+et_wfknownfilelist: (0)
+et_wflivetraffichuman: (0)
+et_wflocs: (0)
+et_wflogins: (0)
+et_wfls_2fa_secrets: (0)
+et_wfls_settings: (23)
+et_wfnotifications: (3)
+et_wfpendingissues: (0)
+et_wfreversecache: (1)
+et_wfsnipcache: (0)
+et_wfstatus: (10)
+et_wftrafficrates: (0)
+et_wpforms_tasks_meta: (5)
+et_wpvivid_scan_result: (0)
+et_wpvivid_unused_uploads_files: (0)
+Removed '34' cache/transient rows
+
+INSERT DATA RUNTIME: 0.8989 sec.
+STEP-2 COMPLETE @ 04:58:11 - RUNTIME: 0.9567 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 04:58:17
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Lifram"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/bf8d3b5/lifram.org"
+path_new______________: "C:/laragon/www/lifram"
+siteurl_______________: "http://lifram.test"
+url_old_______________: "https://lifram.org"
+url_new_______________: "http://lifram.test"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "et_actionscheduler_actions"______________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/bf8d3b5/lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  2:"\/home\/bf8d3b5\/lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  3:"%2Fhome%2Fbf8d3b5%2Flifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  4:"\home\bf8d3b5\lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  5:"\\home\\bf8d3b5\\lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  6:"%5Chome%5Cbf8d3b5%5Clifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  7:"//lifram.org" ====================================> "//lifram.test"
+	SEARCH  8:"\/\/lifram.org" ==================================> "\/\/lifram.test"
+	SEARCH  9:"%2F%2Flifram.org" ================================> "%2F%2Flifram.test"
+	SEARCH 10:"//www.lifram.org" ================================> "//lifram.test"
+	SEARCH 11:"\/\/www.lifram.org" ==============================> "\/\/lifram.test"
+	SEARCH 12:"%2F%2Fwww.lifram.org" ============================> "%2F%2Flifram.test"
+	SEARCH 13:"https://lifram.test" =============================> "http://lifram.test"
+	SEARCH 14:"https:\/\/lifram.test" ===========================> "http:\/\/lifram.test"
+	SEARCH 15:"https%3A%2F%2Flifram.test" =======================> "http%3A%2F%2Flifram.test"
+
+EVALUATE TABLE: "et_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_actionscheduler_groups"_______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/bf8d3b5/lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  2:"\/home\/bf8d3b5\/lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  3:"%2Fhome%2Fbf8d3b5%2Flifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  4:"\home\bf8d3b5\lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  5:"\\home\\bf8d3b5\\lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  6:"%5Chome%5Cbf8d3b5%5Clifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  7:"//lifram.org" ====================================> "//lifram.test"
+	SEARCH  8:"\/\/lifram.org" ==================================> "\/\/lifram.test"
+	SEARCH  9:"%2F%2Flifram.org" ================================> "%2F%2Flifram.test"
+	SEARCH 10:"//www.lifram.org" ================================> "//lifram.test"
+	SEARCH 11:"\/\/www.lifram.org" ==============================> "\/\/lifram.test"
+	SEARCH 12:"%2F%2Fwww.lifram.org" ============================> "%2F%2Flifram.test"
+	SEARCH 13:"https://lifram.test" =============================> "http://lifram.test"
+	SEARCH 14:"https:\/\/lifram.test" ===========================> "http:\/\/lifram.test"
+	SEARCH 15:"https%3A%2F%2Flifram.test" =======================> "http%3A%2F%2Flifram.test"
+
+EVALUATE TABLE: "et_actionscheduler_logs"_________________________[ROWS:    10][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/bf8d3b5/lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  2:"\/home\/bf8d3b5\/lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  3:"%2Fhome%2Fbf8d3b5%2Flifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  4:"\home\bf8d3b5\lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  5:"\\home\\bf8d3b5\\lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  6:"%5Chome%5Cbf8d3b5%5Clifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  7:"//lifram.org" ====================================> "//lifram.test"
+	SEARCH  8:"\/\/lifram.org" ==================================> "\/\/lifram.test"
+	SEARCH  9:"%2F%2Flifram.org" ================================> "%2F%2Flifram.test"
+	SEARCH 10:"//www.lifram.org" ================================> "//lifram.test"
+	SEARCH 11:"\/\/www.lifram.org" ==============================> "\/\/lifram.test"
+	SEARCH 12:"%2F%2Fwww.lifram.org" ============================> "%2F%2Flifram.test"
+	SEARCH 13:"https://lifram.test" =============================> "http://lifram.test"
+	SEARCH 14:"https:\/\/lifram.test" ===========================> "http:\/\/lifram.test"
+	SEARCH 15:"https%3A%2F%2Flifram.test" =======================> "http%3A%2F%2Flifram.test"
+
+EVALUATE TABLE: "et_awpcp_ad_regions"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_awpcp_adfees"_________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/bf8d3b5/lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  2:"\/home\/bf8d3b5\/lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  3:"%2Fhome%2Fbf8d3b5%2Flifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  4:"\home\bf8d3b5\lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  5:"\\home\\bf8d3b5\\lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  6:"%5Chome%5Cbf8d3b5%5Clifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  7:"//lifram.org" ====================================> "//lifram.test"
+	SEARCH  8:"\/\/lifram.org" ==================================> "\/\/lifram.test"
+	SEARCH  9:"%2F%2Flifram.org" ================================> "%2F%2Flifram.test"
+	SEARCH 10:"//www.lifram.org" ================================> "//lifram.test"
+	SEARCH 11:"\/\/www.lifram.org" ==============================> "\/\/lifram.test"
+	SEARCH 12:"%2F%2Fwww.lifram.org" ============================> "%2F%2Flifram.test"
+	SEARCH 13:"https://lifram.test" =============================> "http://lifram.test"
+	SEARCH 14:"https:\/\/lifram.test" ===========================> "http:\/\/lifram.test"
+	SEARCH 15:"https%3A%2F%2Flifram.test" =======================> "http%3A%2F%2Flifram.test"
+
+EVALUATE TABLE: "et_awpcp_admeta"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_awpcp_credit_plans"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_awpcp_payments"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_awpcp_tasks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/bf8d3b5/lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  2:"\/home\/bf8d3b5\/lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  3:"%2Fhome%2Fbf8d3b5%2Flifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  4:"\home\bf8d3b5\lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  5:"\\home\\bf8d3b5\\lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  6:"%5Chome%5Cbf8d3b5%5Clifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  7:"//lifram.org" ====================================> "//lifram.test"
+	SEARCH  8:"\/\/lifram.org" ==================================> "\/\/lifram.test"
+	SEARCH  9:"%2F%2Flifram.org" ================================> "%2F%2Flifram.test"
+	SEARCH 10:"//www.lifram.org" ================================> "//lifram.test"
+	SEARCH 11:"\/\/www.lifram.org" ==============================> "\/\/lifram.test"
+	SEARCH 12:"%2F%2Fwww.lifram.org" ============================> "%2F%2Flifram.test"
+	SEARCH 13:"https://lifram.test" =============================> "http://lifram.test"
+	SEARCH 14:"https:\/\/lifram.test" ===========================> "http:\/\/lifram.test"
+	SEARCH 15:"https%3A%2F%2Flifram.test" =======================> "http%3A%2F%2Flifram.test"
+
+EVALUATE TABLE: "et_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_loginizer_logs"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_options"______________________________________[ROWS:   345][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/bf8d3b5/lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  2:"\/home\/bf8d3b5\/lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  3:"%2Fhome%2Fbf8d3b5%2Flifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  4:"\home\bf8d3b5\lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  5:"\\home\\bf8d3b5\\lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  6:"%5Chome%5Cbf8d3b5%5Clifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  7:"//lifram.org" ====================================> "//lifram.test"
+	SEARCH  8:"\/\/lifram.org" ==================================> "\/\/lifram.test"
+	SEARCH  9:"%2F%2Flifram.org" ================================> "%2F%2Flifram.test"
+	SEARCH 10:"//www.lifram.org" ================================> "//lifram.test"
+	SEARCH 11:"\/\/www.lifram.org" ==============================> "\/\/lifram.test"
+	SEARCH 12:"%2F%2Fwww.lifram.org" ============================> "%2F%2Flifram.test"
+	SEARCH 13:"https://lifram.test" =============================> "http://lifram.test"
+	SEARCH 14:"https:\/\/lifram.test" ===========================> "http:\/\/lifram.test"
+	SEARCH 15:"https%3A%2F%2Flifram.test" =======================> "http%3A%2F%2Flifram.test"
+
+EVALUATE TABLE: "et_postmeta"_____________________________________[ROWS:  3391][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/bf8d3b5/lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  2:"\/home\/bf8d3b5\/lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  3:"%2Fhome%2Fbf8d3b5%2Flifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  4:"\home\bf8d3b5\lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  5:"\\home\\bf8d3b5\\lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  6:"%5Chome%5Cbf8d3b5%5Clifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  7:"//lifram.org" ====================================> "//lifram.test"
+	SEARCH  8:"\/\/lifram.org" ==================================> "\/\/lifram.test"
+	SEARCH  9:"%2F%2Flifram.org" ================================> "%2F%2Flifram.test"
+	SEARCH 10:"//www.lifram.org" ================================> "//lifram.test"
+	SEARCH 11:"\/\/www.lifram.org" ==============================> "\/\/lifram.test"
+	SEARCH 12:"%2F%2Fwww.lifram.org" ============================> "%2F%2Flifram.test"
+	SEARCH 13:"https://lifram.test" =============================> "http://lifram.test"
+	SEARCH 14:"https:\/\/lifram.test" ===========================> "http:\/\/lifram.test"
+	SEARCH 15:"https%3A%2F%2Flifram.test" =======================> "http%3A%2F%2Flifram.test"
+
+EVALUATE TABLE: "et_posts"________________________________________[ROWS:   845][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/bf8d3b5/lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  2:"\/home\/bf8d3b5\/lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  3:"%2Fhome%2Fbf8d3b5%2Flifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  4:"\home\bf8d3b5\lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  5:"\\home\\bf8d3b5\\lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  6:"%5Chome%5Cbf8d3b5%5Clifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  7:"//lifram.org" ====================================> "//lifram.test"
+	SEARCH  8:"\/\/lifram.org" ==================================> "\/\/lifram.test"
+	SEARCH  9:"%2F%2Flifram.org" ================================> "%2F%2Flifram.test"
+	SEARCH 10:"//www.lifram.org" ================================> "//lifram.test"
+	SEARCH 11:"\/\/www.lifram.org" ==============================> "\/\/lifram.test"
+	SEARCH 12:"%2F%2Fwww.lifram.org" ============================> "%2F%2Flifram.test"
+	SEARCH 13:"https://lifram.test" =============================> "http://lifram.test"
+	SEARCH 14:"https:\/\/lifram.test" ===========================> "http:\/\/lifram.test"
+	SEARCH 15:"https%3A%2F%2Flifram.test" =======================> "http%3A%2F%2Flifram.test"
+
+EVALUATE TABLE: "et_rtcl_sessions"________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/bf8d3b5/lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  2:"\/home\/bf8d3b5\/lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  3:"%2Fhome%2Fbf8d3b5%2Flifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  4:"\home\bf8d3b5\lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  5:"\\home\\bf8d3b5\\lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  6:"%5Chome%5Cbf8d3b5%5Clifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  7:"//lifram.org" ====================================> "//lifram.test"
+	SEARCH  8:"\/\/lifram.org" ==================================> "\/\/lifram.test"
+	SEARCH  9:"%2F%2Flifram.org" ================================> "%2F%2Flifram.test"
+	SEARCH 10:"//www.lifram.org" ================================> "//lifram.test"
+	SEARCH 11:"\/\/www.lifram.org" ==============================> "\/\/lifram.test"
+	SEARCH 12:"%2F%2Fwww.lifram.org" ============================> "%2F%2Flifram.test"
+	SEARCH 13:"https://lifram.test" =============================> "http://lifram.test"
+	SEARCH 14:"https:\/\/lifram.test" ===========================> "http:\/\/lifram.test"
+	SEARCH 15:"https%3A%2F%2Flifram.test" =======================> "http%3A%2F%2Flifram.test"
+
+EVALUATE TABLE: "et_term_relationships"___________________________[ROWS:    70][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/bf8d3b5/lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  2:"\/home\/bf8d3b5\/lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  3:"%2Fhome%2Fbf8d3b5%2Flifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  4:"\home\bf8d3b5\lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  5:"\\home\\bf8d3b5\\lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  6:"%5Chome%5Cbf8d3b5%5Clifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  7:"//lifram.org" ====================================> "//lifram.test"
+	SEARCH  8:"\/\/lifram.org" ==================================> "\/\/lifram.test"
+	SEARCH  9:"%2F%2Flifram.org" ================================> "%2F%2Flifram.test"
+	SEARCH 10:"//www.lifram.org" ================================> "//lifram.test"
+	SEARCH 11:"\/\/www.lifram.org" ==============================> "\/\/lifram.test"
+	SEARCH 12:"%2F%2Fwww.lifram.org" ============================> "%2F%2Flifram.test"
+	SEARCH 13:"https://lifram.test" =============================> "http://lifram.test"
+	SEARCH 14:"https:\/\/lifram.test" ===========================> "http:\/\/lifram.test"
+	SEARCH 15:"https%3A%2F%2Flifram.test" =======================> "http%3A%2F%2Flifram.test"
+
+EVALUATE TABLE: "et_term_taxonomy"________________________________[ROWS:    14][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/bf8d3b5/lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  2:"\/home\/bf8d3b5\/lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  3:"%2Fhome%2Fbf8d3b5%2Flifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  4:"\home\bf8d3b5\lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  5:"\\home\\bf8d3b5\\lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  6:"%5Chome%5Cbf8d3b5%5Clifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  7:"//lifram.org" ====================================> "//lifram.test"
+	SEARCH  8:"\/\/lifram.org" ==================================> "\/\/lifram.test"
+	SEARCH  9:"%2F%2Flifram.org" ================================> "%2F%2Flifram.test"
+	SEARCH 10:"//www.lifram.org" ================================> "//lifram.test"
+	SEARCH 11:"\/\/www.lifram.org" ==============================> "\/\/lifram.test"
+	SEARCH 12:"%2F%2Fwww.lifram.org" ============================> "%2F%2Flifram.test"
+	SEARCH 13:"https://lifram.test" =============================> "http://lifram.test"
+	SEARCH 14:"https:\/\/lifram.test" ===========================> "http:\/\/lifram.test"
+	SEARCH 15:"https%3A%2F%2Flifram.test" =======================> "http%3A%2F%2Flifram.test"
+
+EVALUATE TABLE: "et_termmeta"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/bf8d3b5/lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  2:"\/home\/bf8d3b5\/lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  3:"%2Fhome%2Fbf8d3b5%2Flifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  4:"\home\bf8d3b5\lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  5:"\\home\\bf8d3b5\\lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  6:"%5Chome%5Cbf8d3b5%5Clifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  7:"//lifram.org" ====================================> "//lifram.test"
+	SEARCH  8:"\/\/lifram.org" ==================================> "\/\/lifram.test"
+	SEARCH  9:"%2F%2Flifram.org" ================================> "%2F%2Flifram.test"
+	SEARCH 10:"//www.lifram.org" ================================> "//lifram.test"
+	SEARCH 11:"\/\/www.lifram.org" ==============================> "\/\/lifram.test"
+	SEARCH 12:"%2F%2Fwww.lifram.org" ============================> "%2F%2Flifram.test"
+	SEARCH 13:"https://lifram.test" =============================> "http://lifram.test"
+	SEARCH 14:"https:\/\/lifram.test" ===========================> "http:\/\/lifram.test"
+	SEARCH 15:"https%3A%2F%2Flifram.test" =======================> "http%3A%2F%2Flifram.test"
+
+EVALUATE TABLE: "et_terms"________________________________________[ROWS:    14][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/bf8d3b5/lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  2:"\/home\/bf8d3b5\/lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  3:"%2Fhome%2Fbf8d3b5%2Flifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  4:"\home\bf8d3b5\lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  5:"\\home\\bf8d3b5\\lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  6:"%5Chome%5Cbf8d3b5%5Clifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  7:"//lifram.org" ====================================> "//lifram.test"
+	SEARCH  8:"\/\/lifram.org" ==================================> "\/\/lifram.test"
+	SEARCH  9:"%2F%2Flifram.org" ================================> "%2F%2Flifram.test"
+	SEARCH 10:"//www.lifram.org" ================================> "//lifram.test"
+	SEARCH 11:"\/\/www.lifram.org" ==============================> "\/\/lifram.test"
+	SEARCH 12:"%2F%2Fwww.lifram.org" ============================> "%2F%2Flifram.test"
+	SEARCH 13:"https://lifram.test" =============================> "http://lifram.test"
+	SEARCH 14:"https:\/\/lifram.test" ===========================> "http:\/\/lifram.test"
+	SEARCH 15:"https%3A%2F%2Flifram.test" =======================> "http%3A%2F%2Flifram.test"
+
+EVALUATE TABLE: "et_usermeta"_____________________________________[ROWS:    62][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/bf8d3b5/lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  2:"\/home\/bf8d3b5\/lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  3:"%2Fhome%2Fbf8d3b5%2Flifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  4:"\home\bf8d3b5\lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  5:"\\home\\bf8d3b5\\lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  6:"%5Chome%5Cbf8d3b5%5Clifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  7:"//lifram.org" ====================================> "//lifram.test"
+	SEARCH  8:"\/\/lifram.org" ==================================> "\/\/lifram.test"
+	SEARCH  9:"%2F%2Flifram.org" ================================> "%2F%2Flifram.test"
+	SEARCH 10:"//www.lifram.org" ================================> "//lifram.test"
+	SEARCH 11:"\/\/www.lifram.org" ==============================> "\/\/lifram.test"
+	SEARCH 12:"%2F%2Fwww.lifram.org" ============================> "%2F%2Flifram.test"
+	SEARCH 13:"https://lifram.test" =============================> "http://lifram.test"
+	SEARCH 14:"https:\/\/lifram.test" ===========================> "http:\/\/lifram.test"
+	SEARCH 15:"https%3A%2F%2Flifram.test" =======================> "http%3A%2F%2Flifram.test"
+
+EVALUATE TABLE: "et_users"________________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/bf8d3b5/lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  2:"\/home\/bf8d3b5\/lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  3:"%2Fhome%2Fbf8d3b5%2Flifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  4:"\home\bf8d3b5\lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  5:"\\home\\bf8d3b5\\lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  6:"%5Chome%5Cbf8d3b5%5Clifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  7:"//lifram.org" ====================================> "//lifram.test"
+	SEARCH  8:"\/\/lifram.org" ==================================> "\/\/lifram.test"
+	SEARCH  9:"%2F%2Flifram.org" ================================> "%2F%2Flifram.test"
+	SEARCH 10:"//www.lifram.org" ================================> "//lifram.test"
+	SEARCH 11:"\/\/www.lifram.org" ==============================> "\/\/lifram.test"
+	SEARCH 12:"%2F%2Fwww.lifram.org" ============================> "%2F%2Flifram.test"
+	SEARCH 13:"https://lifram.test" =============================> "http://lifram.test"
+	SEARCH 14:"https:\/\/lifram.test" ===========================> "http:\/\/lifram.test"
+	SEARCH 15:"https%3A%2F%2Flifram.test" =======================> "http%3A%2F%2Flifram.test"
+
+EVALUATE TABLE: "et_wfblockediplog"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_wfblocks7"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_wfconfig"_____________________________________[ROWS:   240][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/bf8d3b5/lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  2:"\/home\/bf8d3b5\/lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  3:"%2Fhome%2Fbf8d3b5%2Flifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  4:"\home\bf8d3b5\lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  5:"\\home\\bf8d3b5\\lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  6:"%5Chome%5Cbf8d3b5%5Clifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  7:"//lifram.org" ====================================> "//lifram.test"
+	SEARCH  8:"\/\/lifram.org" ==================================> "\/\/lifram.test"
+	SEARCH  9:"%2F%2Flifram.org" ================================> "%2F%2Flifram.test"
+	SEARCH 10:"//www.lifram.org" ================================> "//lifram.test"
+	SEARCH 11:"\/\/www.lifram.org" ==============================> "\/\/lifram.test"
+	SEARCH 12:"%2F%2Fwww.lifram.org" ============================> "%2F%2Flifram.test"
+	SEARCH 13:"https://lifram.test" =============================> "http://lifram.test"
+	SEARCH 14:"https:\/\/lifram.test" ===========================> "http:\/\/lifram.test"
+	SEARCH 15:"https%3A%2F%2Flifram.test" =======================> "http%3A%2F%2Flifram.test"
+
+EVALUATE TABLE: "et_wfcrawlers"___________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/bf8d3b5/lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  2:"\/home\/bf8d3b5\/lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  3:"%2Fhome%2Fbf8d3b5%2Flifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  4:"\home\bf8d3b5\lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  5:"\\home\\bf8d3b5\\lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  6:"%5Chome%5Cbf8d3b5%5Clifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  7:"//lifram.org" ====================================> "//lifram.test"
+	SEARCH  8:"\/\/lifram.org" ==================================> "\/\/lifram.test"
+	SEARCH  9:"%2F%2Flifram.org" ================================> "%2F%2Flifram.test"
+	SEARCH 10:"//www.lifram.org" ================================> "//lifram.test"
+	SEARCH 11:"\/\/www.lifram.org" ==============================> "\/\/lifram.test"
+	SEARCH 12:"%2F%2Fwww.lifram.org" ============================> "%2F%2Flifram.test"
+	SEARCH 13:"https://lifram.test" =============================> "http://lifram.test"
+	SEARCH 14:"https:\/\/lifram.test" ===========================> "http:\/\/lifram.test"
+	SEARCH 15:"https%3A%2F%2Flifram.test" =======================> "http%3A%2F%2Flifram.test"
+
+EVALUATE TABLE: "et_wffilechanges"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_wffilemods"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_wfhits"_______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_wfhoover"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_wfissues"_____________________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/bf8d3b5/lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  2:"\/home\/bf8d3b5\/lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  3:"%2Fhome%2Fbf8d3b5%2Flifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  4:"\home\bf8d3b5\lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  5:"\\home\\bf8d3b5\\lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  6:"%5Chome%5Cbf8d3b5%5Clifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  7:"//lifram.org" ====================================> "//lifram.test"
+	SEARCH  8:"\/\/lifram.org" ==================================> "\/\/lifram.test"
+	SEARCH  9:"%2F%2Flifram.org" ================================> "%2F%2Flifram.test"
+	SEARCH 10:"//www.lifram.org" ================================> "//lifram.test"
+	SEARCH 11:"\/\/www.lifram.org" ==============================> "\/\/lifram.test"
+	SEARCH 12:"%2F%2Fwww.lifram.org" ============================> "%2F%2Flifram.test"
+	SEARCH 13:"https://lifram.test" =============================> "http://lifram.test"
+	SEARCH 14:"https:\/\/lifram.test" ===========================> "http:\/\/lifram.test"
+	SEARCH 15:"https%3A%2F%2Flifram.test" =======================> "http%3A%2F%2Flifram.test"
+
+EVALUATE TABLE: "et_wfknownfilelist"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_wflivetraffichuman"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_wflocs"_______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_wflogins"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_wfls_2fa_secrets"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_wfls_settings"________________________________[ROWS:    23][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/bf8d3b5/lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  2:"\/home\/bf8d3b5\/lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  3:"%2Fhome%2Fbf8d3b5%2Flifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  4:"\home\bf8d3b5\lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  5:"\\home\\bf8d3b5\\lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  6:"%5Chome%5Cbf8d3b5%5Clifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  7:"//lifram.org" ====================================> "//lifram.test"
+	SEARCH  8:"\/\/lifram.org" ==================================> "\/\/lifram.test"
+	SEARCH  9:"%2F%2Flifram.org" ================================> "%2F%2Flifram.test"
+	SEARCH 10:"//www.lifram.org" ================================> "//lifram.test"
+	SEARCH 11:"\/\/www.lifram.org" ==============================> "\/\/lifram.test"
+	SEARCH 12:"%2F%2Fwww.lifram.org" ============================> "%2F%2Flifram.test"
+	SEARCH 13:"https://lifram.test" =============================> "http://lifram.test"
+	SEARCH 14:"https:\/\/lifram.test" ===========================> "http:\/\/lifram.test"
+	SEARCH 15:"https%3A%2F%2Flifram.test" =======================> "http%3A%2F%2Flifram.test"
+
+EVALUATE TABLE: "et_wfnotifications"______________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/bf8d3b5/lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  2:"\/home\/bf8d3b5\/lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  3:"%2Fhome%2Fbf8d3b5%2Flifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  4:"\home\bf8d3b5\lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  5:"\\home\\bf8d3b5\\lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  6:"%5Chome%5Cbf8d3b5%5Clifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  7:"//lifram.org" ====================================> "//lifram.test"
+	SEARCH  8:"\/\/lifram.org" ==================================> "\/\/lifram.test"
+	SEARCH  9:"%2F%2Flifram.org" ================================> "%2F%2Flifram.test"
+	SEARCH 10:"//www.lifram.org" ================================> "//lifram.test"
+	SEARCH 11:"\/\/www.lifram.org" ==============================> "\/\/lifram.test"
+	SEARCH 12:"%2F%2Fwww.lifram.org" ============================> "%2F%2Flifram.test"
+	SEARCH 13:"https://lifram.test" =============================> "http://lifram.test"
+	SEARCH 14:"https:\/\/lifram.test" ===========================> "http:\/\/lifram.test"
+	SEARCH 15:"https%3A%2F%2Flifram.test" =======================> "http%3A%2F%2Flifram.test"
+
+EVALUATE TABLE: "et_wfpendingissues"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_wfreversecache"_______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/bf8d3b5/lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  2:"\/home\/bf8d3b5\/lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  3:"%2Fhome%2Fbf8d3b5%2Flifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  4:"\home\bf8d3b5\lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  5:"\\home\\bf8d3b5\\lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  6:"%5Chome%5Cbf8d3b5%5Clifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  7:"//lifram.org" ====================================> "//lifram.test"
+	SEARCH  8:"\/\/lifram.org" ==================================> "\/\/lifram.test"
+	SEARCH  9:"%2F%2Flifram.org" ================================> "%2F%2Flifram.test"
+	SEARCH 10:"//www.lifram.org" ================================> "//lifram.test"
+	SEARCH 11:"\/\/www.lifram.org" ==============================> "\/\/lifram.test"
+	SEARCH 12:"%2F%2Fwww.lifram.org" ============================> "%2F%2Flifram.test"
+	SEARCH 13:"https://lifram.test" =============================> "http://lifram.test"
+	SEARCH 14:"https:\/\/lifram.test" ===========================> "http:\/\/lifram.test"
+	SEARCH 15:"https%3A%2F%2Flifram.test" =======================> "http%3A%2F%2Flifram.test"
+
+EVALUATE TABLE: "et_wfsnipcache"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_wfstatus"_____________________________________[ROWS:    10][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/bf8d3b5/lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  2:"\/home\/bf8d3b5\/lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  3:"%2Fhome%2Fbf8d3b5%2Flifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  4:"\home\bf8d3b5\lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  5:"\\home\\bf8d3b5\\lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  6:"%5Chome%5Cbf8d3b5%5Clifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  7:"//lifram.org" ====================================> "//lifram.test"
+	SEARCH  8:"\/\/lifram.org" ==================================> "\/\/lifram.test"
+	SEARCH  9:"%2F%2Flifram.org" ================================> "%2F%2Flifram.test"
+	SEARCH 10:"//www.lifram.org" ================================> "//lifram.test"
+	SEARCH 11:"\/\/www.lifram.org" ==============================> "\/\/lifram.test"
+	SEARCH 12:"%2F%2Fwww.lifram.org" ============================> "%2F%2Flifram.test"
+	SEARCH 13:"https://lifram.test" =============================> "http://lifram.test"
+	SEARCH 14:"https:\/\/lifram.test" ===========================> "http:\/\/lifram.test"
+	SEARCH 15:"https%3A%2F%2Flifram.test" =======================> "http%3A%2F%2Flifram.test"
+
+EVALUATE TABLE: "et_wftrafficrates"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_wpforms_tasks_meta"___________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/bf8d3b5/lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  2:"\/home\/bf8d3b5\/lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  3:"%2Fhome%2Fbf8d3b5%2Flifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  4:"\home\bf8d3b5\lifram.org" ========================> "C:/laragon/www/lifram"
+	SEARCH  5:"\\home\\bf8d3b5\\lifram.org" =====================> "C:\/laragon\/www\/lifram"
+	SEARCH  6:"%5Chome%5Cbf8d3b5%5Clifram.org" ==================> "C%3A%2Flaragon%2Fwww%2Flifram"
+	SEARCH  7:"//lifram.org" ====================================> "//lifram.test"
+	SEARCH  8:"\/\/lifram.org" ==================================> "\/\/lifram.test"
+	SEARCH  9:"%2F%2Flifram.org" ================================> "%2F%2Flifram.test"
+	SEARCH 10:"//www.lifram.org" ================================> "//lifram.test"
+	SEARCH 11:"\/\/www.lifram.org" ==============================> "\/\/lifram.test"
+	SEARCH 12:"%2F%2Fwww.lifram.org" ============================> "%2F%2Flifram.test"
+	SEARCH 13:"https://lifram.test" =============================> "http://lifram.test"
+	SEARCH 14:"https:\/\/lifram.test" ===========================> "http:\/\/lifram.test"
+	SEARCH 15:"https%3A%2F%2Flifram.test" =======================> "http%3A%2F%2Flifram.test"
+
+EVALUATE TABLE: "et_wpvivid_scan_result"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_wpvivid_unused_uploads_files"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:49 	|	 Rows:5055 	|	 Cells:36123 
+UPDATED:	Tables:7 	|	 Rows:876 	|	 Cells:889 
+ERRORS:		0 
+RUNTIME:	1.978500 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 04:58:19 - RUNTIME: 2.0459 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

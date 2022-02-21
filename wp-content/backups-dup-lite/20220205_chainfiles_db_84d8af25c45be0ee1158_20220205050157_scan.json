@@ -1,0 +1,495 @@
+{
+    "RPT": {
+        "ScanTime": "0.74 sec.",
+        "ScanFile": "20220205_chainfiles_db_84d8af25c45be0ee1158_20220205050157_scan.json",
+        "Warnings": 0,
+        "Success": 6
+    },
+    "SRV": {
+        "PHP": {
+            "websrv": true,
+            "openbase": true,
+            "maxtime": true,
+            "mysqli": true,
+            "version": true
+        },
+        "SYS": {
+            "managedHost": true,
+            "ALL": "Good"
+        },
+        "WP": {
+            "version": true,
+            "core": true,
+            "ismu": false,
+            "ALL": "Good"
+        }
+    },
+    "ARC": {
+        "Size": "0B",
+        "DirCount": "0",
+        "FileCount": "0",
+        "FullCount": "0",
+        "WarnFileCount": 0,
+        "WarnDirCount": 0,
+        "UnreadableDirCount": 0,
+        "UnreadableFileCount": 0,
+        "FilterDirsAll": [
+            "C:\/laragon\/www\/blocdoc\/.opcache",
+            "C:\/laragon\/www\/blocdoc\/wp-content\/ai1wm-backups",
+            "C:\/laragon\/www\/blocdoc\/wp-content\/backups-dup-lite",
+            "C:\/laragon\/www\/blocdoc\/wp-content\/backups-dup-pro",
+            "C:\/laragon\/www\/blocdoc\/wp-content\/backupwordpress",
+            "C:\/laragon\/www\/blocdoc\/wp-content\/bps-backup",
+            "C:\/laragon\/www\/blocdoc\/wp-content\/cache",
+            "C:\/laragon\/www\/blocdoc\/wp-content\/content\/cache",
+            "C:\/laragon\/www\/blocdoc\/wp-content\/contents\/cache",
+            "C:\/laragon\/www\/blocdoc\/wp-content\/infinitewp\/backups",
+            "C:\/laragon\/www\/blocdoc\/wp-content\/managewp\/backups",
+            "C:\/laragon\/www\/blocdoc\/wp-content\/old-cache",
+            "C:\/laragon\/www\/blocdoc\/wp-content\/plugins\/all-in-one-wp-migration\/storage",
+            "C:\/laragon\/www\/blocdoc\/wp-content\/updraft",
+            "C:\/laragon\/www\/blocdoc\/wp-content\/uploads\/aiowps_backups",
+            "C:\/laragon\/www\/blocdoc\/wp-content\/uploads\/backupbuddy_backups",
+            "C:\/laragon\/www\/blocdoc\/wp-content\/uploads\/backupbuddy_temp",
+            "C:\/laragon\/www\/blocdoc\/wp-content\/uploads\/ithemes-security\/backups",
+            "C:\/laragon\/www\/blocdoc\/wp-content\/uploads\/mainwp\/backup",
+            "C:\/laragon\/www\/blocdoc\/wp-content\/uploads\/pb_backupbuddy",
+            "C:\/laragon\/www\/blocdoc\/wp-content\/uploads\/snapshots",
+            "C:\/laragon\/www\/blocdoc\/wp-content\/uploads\/sucuri",
+            "C:\/laragon\/www\/blocdoc\/wp-content\/uploads\/wp-clone",
+            "C:\/laragon\/www\/blocdoc\/wp-content\/uploads\/wp_all_backup",
+            "C:\/laragon\/www\/blocdoc\/wp-content\/uploads\/wpbackitup_backups",
+            "C:\/laragon\/www\/blocdoc\/wp-content\/wfcache",
+            "C:\/laragon\/www\/blocdoc\/wp-content\/wishlist-backup",
+            "C:\/laragon\/www\/blocdoc\/wp-content\/wpvividbackups",
+            "C:\/laragon\/www\/blocdoc\/wp-snapshots"
+        ],
+        "FilterFilesAll": [
+            "error_log",
+            "error.log",
+            "debug_log",
+            "ws_ftp.log",
+            "dbcache",
+            "pgcache",
+            "objectcache",
+            ".DS_Store",
+            "C:\/laragon\/www\/blocdoc\/.htaccess",
+            "C:\/laragon\/www\/blocdoc\/web.config",
+            "C:\/laragon\/www\/blocdoc\/wp-config.php"
+        ],
+        "FilterExtsAll": [],
+        "FilterInfo": {
+            "Dirs": {
+                "Warning": [],
+                "Unreadable": [],
+                "AddonSites": [],
+                "Core": [
+                    "C:\/laragon\/www\/blocdoc\/wp-snapshots",
+                    "C:\/laragon\/www\/blocdoc\/wp-content\/backups-dup-lite",
+                    "C:\/laragon\/www\/blocdoc\/.opcache",
+                    "C:\/laragon\/www\/blocdoc\/wp-content\/backups-dup-pro",
+                    "C:\/laragon\/www\/blocdoc\/wp-content\/ai1wm-backups",
+                    "C:\/laragon\/www\/blocdoc\/wp-content\/backupwordpress",
+                    "C:\/laragon\/www\/blocdoc\/wp-content\/content\/cache",
+                    "C:\/laragon\/www\/blocdoc\/wp-content\/contents\/cache",
+                    "C:\/laragon\/www\/blocdoc\/wp-content\/infinitewp\/backups",
+                    "C:\/laragon\/www\/blocdoc\/wp-content\/managewp\/backups",
+                    "C:\/laragon\/www\/blocdoc\/wp-content\/old-cache",
+                    "C:\/laragon\/www\/blocdoc\/wp-content\/plugins\/all-in-one-wp-migration\/storage",
+                    "C:\/laragon\/www\/blocdoc\/wp-content\/updraft",
+                    "C:\/laragon\/www\/blocdoc\/wp-content\/wishlist-backup",
+                    "C:\/laragon\/www\/blocdoc\/wp-content\/wfcache",
+                    "C:\/laragon\/www\/blocdoc\/wp-content\/bps-backup",
+                    "C:\/laragon\/www\/blocdoc\/wp-content\/cache",
+                    "C:\/laragon\/www\/blocdoc\/wp-content\/uploads\/aiowps_backups",
+                    "C:\/laragon\/www\/blocdoc\/wp-content\/uploads\/backupbuddy_temp",
+                    "C:\/laragon\/www\/blocdoc\/wp-content\/uploads\/backupbuddy_backups",
+                    "C:\/laragon\/www\/blocdoc\/wp-content\/uploads\/ithemes-security\/backups",
+                    "C:\/laragon\/www\/blocdoc\/wp-content\/uploads\/mainwp\/backup",
+                    "C:\/laragon\/www\/blocdoc\/wp-content\/uploads\/pb_backupbuddy",
+                    "C:\/laragon\/www\/blocdoc\/wp-content\/uploads\/snapshots",
+                    "C:\/laragon\/www\/blocdoc\/wp-content\/uploads\/sucuri",
+                    "C:\/laragon\/www\/blocdoc\/wp-content\/uploads\/wp-clone",
+                    "C:\/laragon\/www\/blocdoc\/wp-content\/uploads\/wp_all_backup",
+                    "C:\/laragon\/www\/blocdoc\/wp-content\/uploads\/wpbackitup_backups"
+                ],
+                "Global": [],
+                "Instance": [
+                    "C:\/laragon\/www\/blocdoc\/wp-content\/wpvividbackups"
+                ]
+            },
+            "Files": {
+                "Size": [],
+                "Warning": [],
+                "Unreadable": [],
+                "AddonSites": [],
+                "Core": [],
+                "Global": [
+                    "error_log",
+                    "error.log",
+                    "debug_log",
+                    "ws_ftp.log",
+                    "dbcache",
+                    "pgcache",
+                    "objectcache",
+                    ".DS_Store"
+                ],
+                "Instance": []
+            },
+            "Exts": {
+                "Core": [],
+                "Global": [],
+                "Instance": []
+            },
+            "UDirCount": 0,
+            "UFileCount": 0,
+            "UExtCount": 0,
+            "TreeSize": [],
+            "TreeWarning": []
+        },
+        "RecursiveLinks": [],
+        "UnreadableItems": [],
+        "Status": {
+            "Size": "Good",
+            "Names": "Good",
+            "UnreadableItems": "Good",
+            "MigratePackage": "Good",
+            "CanbeMigratePackage": true,
+            "showCreateProcFuncStatus": "Good",
+            "showCreateProcFunc": true,
+            "AddonSites": "Good"
+        },
+        "Dirs": [],
+        "Files": []
+    },
+    "DB": {
+        "Status": {
+            "Success": true,
+            "DB_Case": "Good",
+            "DB_Rows": "Good",
+            "DB_Size": "Good",
+            "TBL_Case": "Good",
+            "TBL_Rows": "Good",
+            "TBL_Size": "Good",
+            "Triggers": "Good"
+        },
+        "Size": "11.54MB",
+        "Rows": "25,011",
+        "TableCount": 51,
+        "TableList": {
+            "et_actionscheduler_actions": {
+                "Case": 0,
+                "Rows": "4",
+                "Size": "20.29KB",
+                "USize": 20772
+            },
+            "et_actionscheduler_claims": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": 1024
+            },
+            "et_actionscheduler_groups": {
+                "Case": 0,
+                "Rows": "2",
+                "Size": "9.06KB",
+                "USize": 9276
+            },
+            "et_actionscheduler_logs": {
+                "Case": 0,
+                "Rows": "10",
+                "Size": "4.49KB",
+                "USize": 4600
+            },
+            "et_awpcp_ad_regions": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "2KB",
+                "USize": 2048
+            },
+            "et_awpcp_adfees": {
+                "Case": 0,
+                "Rows": "1",
+                "Size": "2.05KB",
+                "USize": 2096
+            },
+            "et_awpcp_admeta": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": 1024
+            },
+            "et_awpcp_credit_plans": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": 1024
+            },
+            "et_awpcp_payments": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "2KB",
+                "USize": 2048
+            },
+            "et_awpcp_tasks": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": 1024
+            },
+            "et_commentmeta": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "4KB",
+                "USize": 4096
+            },
+            "et_comments": {
+                "Case": 0,
+                "Rows": "1",
+                "Size": "7.32KB",
+                "USize": 7492
+            },
+            "et_duplicator_packages": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "16.14KB",
+                "USize": 16524
+            },
+            "et_ethpress_addresses": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "48KB",
+                "USize": 49152
+            },
+            "et_links": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": 1024
+            },
+            "et_loginizer_logs": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "8.06KB",
+                "USize": 8256
+            },
+            "et_options": {
+                "Case": 0,
+                "Rows": "484",
+                "Size": "1.77MB",
+                "USize": 1859692
+            },
+            "et_postmeta": {
+                "Case": 0,
+                "Rows": "4,035",
+                "Size": "2.82MB",
+                "USize": 2957800
+            },
+            "et_posts": {
+                "Case": 0,
+                "Rows": "1,358",
+                "Size": "2.25MB",
+                "USize": 2361492
+            },
+            "et_rtcl_sessions": {
+                "Case": 0,
+                "Rows": "1",
+                "Size": "3.05KB",
+                "USize": 3128
+            },
+            "et_social_users": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "48KB",
+                "USize": 49152
+            },
+            "et_term_relationships": {
+                "Case": 0,
+                "Rows": "76",
+                "Size": "15.04KB",
+                "USize": 15401
+            },
+            "et_term_taxonomy": {
+                "Case": 0,
+                "Rows": "14",
+                "Size": "21.42KB",
+                "USize": 21936
+            },
+            "et_termmeta": {
+                "Case": 0,
+                "Rows": "1",
+                "Size": "10.18KB",
+                "USize": 10420
+            },
+            "et_terms": {
+                "Case": 0,
+                "Rows": "14",
+                "Size": "22.74KB",
+                "USize": 23288
+            },
+            "et_usermeta": {
+                "Case": 0,
+                "Rows": "142",
+                "Size": "28.16KB",
+                "USize": 28832
+            },
+            "et_users": {
+                "Case": 0,
+                "Rows": "7",
+                "Size": "8.91KB",
+                "USize": 9120
+            },
+            "et_wfblockediplog": {
+                "Case": 0,
+                "Rows": "1",
+                "Size": "2.04KB",
+                "USize": 2084
+            },
+            "et_wfblocks7": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": 1024
+            },
+            "et_wfconfig": {
+                "Case": 0,
+                "Rows": "257",
+                "Size": "1.8MB",
+                "USize": 1885664
+            },
+            "et_wfcrawlers": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": 1024
+            },
+            "et_wffilechanges": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": 1024
+            },
+            "et_wffilemods": {
+                "Case": 0,
+                "Rows": "8,738",
+                "Size": "1.57MB",
+                "USize": 1649868
+            },
+            "et_wfhits": {
+                "Case": 0,
+                "Rows": "46",
+                "Size": "23.61KB",
+                "USize": 24172
+            },
+            "et_wfhoover": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": 1024
+            },
+            "et_wfissues": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "21.79KB",
+                "USize": 22316
+            },
+            "et_wfknownfilelist": {
+                "Case": 0,
+                "Rows": "8,738",
+                "Size": "746.65KB",
+                "USize": 764568
+            },
+            "et_wflivetraffichuman": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": 1024
+            },
+            "et_wflocs": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "2.03KB",
+                "USize": 2080
+            },
+            "et_wflogins": {
+                "Case": 0,
+                "Rows": "77",
+                "Size": "17.78KB",
+                "USize": 18204
+            },
+            "et_wfls_2fa_secrets": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "32KB",
+                "USize": 32768
+            },
+            "et_wfls_settings": {
+                "Case": 0,
+                "Rows": "23",
+                "Size": "16KB",
+                "USize": 16384
+            },
+            "et_wfnotifications": {
+                "Case": 0,
+                "Rows": "6",
+                "Size": "3.46KB",
+                "USize": 3540
+            },
+            "et_wfpendingissues": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": 1024
+            },
+            "et_wfreversecache": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "2.04KB",
+                "USize": 2088
+            },
+            "et_wfsnipcache": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": 1024
+            },
+            "et_wfstatus": {
+                "Case": 0,
+                "Rows": "970",
+                "Size": "184.33KB",
+                "USize": 188756
+            },
+            "et_wftrafficrates": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": 1024
+            },
+            "et_wpforms_tasks_meta": {
+                "Case": 0,
+                "Rows": "5",
+                "Size": "2.34KB",
+                "USize": 2392
+            },
+            "et_wpvivid_scan_result": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": 1024
+            },
+            "et_wpvivid_unused_uploads_files": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "1KB",
+                "USize": 1024
+            }
+        },
+        "RawSize": 12096865
+    },
+    "LL": {
+        "TotalSize": "11.54MB",
+        "Status": {
+            "TotalSize": "Good"
+        }
+    }
+}

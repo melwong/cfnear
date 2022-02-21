@@ -1,0 +1,790 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 10:08:07
+* VERSION: 1.4.3
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.25                                |7.4.25
+OS__________________: WINNT                                 |WINNT
+CREATED_____________: 2022-02-19 10:06:35
+WP VERSION__________: 5.9
+DUP VERSION_________: 1.4.3
+DB__________________: 5.7.24
+DB TABLES___________: 51
+DB ROWS_____________: 14,944
+DB FILE SIZE________: 9.95MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.25 | SAPI: cgi-fcgi
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.35 (Win64) OpenSSL/1.1.1b mod_fcgid/2.3.9
+DOC ROOT____________: "C:/laragon/www/chainfilesnear"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://chainfilesnear.test/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/laragon/www/chainfilesnear/20220219_chainfiles_db_[HASH]_20220219100635_archive.zip"
+SIZE________________: 2.13MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' backed-up to .htaccess-220219100807-6210c187720f4-duplicator.bak
+- PASS: Existing Apache '.htaccess' was removed
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/laragon/www/chainfilesnear/20220219_chainfiles_db_[HASH]_20220219100635_archive.zip"
+SIZE________________: 2.13MBFile timestamp set to Current: 2022-02-19 10:08:07
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 10:08:07 - RUNTIME: 0.1559 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 10:09:11
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.24 -- Build Server: 5.7.24
+FILE SIZE:	dup-database__[HASH].sql (8.25MB)
+TIMEOUT:	5000
+MAXPACK:	134217728
+SQLMODE:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[C:/laragon/www/chainfilesnear/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	452
+
+et_actionscheduler_actions: (4)
+et_actionscheduler_claims: (0)
+et_actionscheduler_groups: (2)
+et_actionscheduler_logs: (10)
+et_awpcp_ad_regions: (0)
+et_awpcp_adfees: (1)
+et_awpcp_admeta: (0)
+et_awpcp_credit_plans: (0)
+et_awpcp_payments: (0)
+et_awpcp_tasks: (0)
+et_commentmeta: (0)
+et_comments: (1)
+et_duplicator_packages: (0)
+et_ethpress_addresses: (2)
+et_links: (0)
+et_loginizer_logs: (0)
+et_options: (416)
+et_postmeta: (4035)
+et_posts: (1358)
+et_rtcl_sessions: (1)
+et_social_users: (0)
+et_term_relationships: (76)
+et_term_taxonomy: (14)
+et_termmeta: (1)
+et_terms: (14)
+et_usermeta: (142)
+et_users: (7)
+et_wfblockediplog: (1)
+et_wfblocks7: (0)
+et_wfconfig: (257)
+et_wfcrawlers: (0)
+et_wffilechanges: (0)
+et_wffilemods: (726)
+et_wfhits: (40)
+et_wfhoover: (0)
+et_wfissues: (0)
+et_wfknownfilelist: (6667)
+et_wflivetraffichuman: (0)
+et_wflocs: (0)
+et_wflogins: (78)
+et_wfls_2fa_secrets: (0)
+et_wfls_settings: (23)
+et_wfnotifications: (8)
+et_wfpendingissues: (0)
+et_wfreversecache: (0)
+et_wfsnipcache: (0)
+et_wfstatus: (1026)
+et_wftrafficrates: (0)
+et_wpforms_tasks_meta: (5)
+et_wpvivid_scan_result: (0)
+et_wpvivid_unused_uploads_files: (0)
+Removed '31' cache/transient rows
+
+INSERT DATA RUNTIME: 1.2299 sec.
+STEP-2 COMPLETE @ 10:09:13 - RUNTIME: 1.2732 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 10:09:23
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "ChainFiles"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "C:/laragon/www/chainfiles"
+path_new______________: "C:/laragon/www/chainfilesnear"
+siteurl_______________: "https://chainfilesnear.test"
+url_old_______________: "https://chainfiles.test"
+url_new_______________: "https://chainfilesnear.test"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "et_actionscheduler_actions"______________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  2:"C:\/laragon\/www\/chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  4:"C:\laragon\www\chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  5:"C:\\laragon\\www\\chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Cchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  7:"//chainfiles.test" ===============================> "//chainfilesnear.test"
+	SEARCH  8:"\/\/chainfiles.test" =============================> "\/\/chainfilesnear.test"
+	SEARCH  9:"%2F%2Fchainfiles.test" ===========================> "%2F%2Fchainfilesnear.test"
+	SEARCH 10:"//www.chainfiles.test" ===========================> "//chainfilesnear.test"
+	SEARCH 11:"\/\/www.chainfiles.test" =========================> "\/\/chainfilesnear.test"
+	SEARCH 12:"%2F%2Fwww.chainfiles.test" =======================> "%2F%2Fchainfilesnear.test"
+	SEARCH 13:"http://chainfilesnear.test" ======================> "https://chainfilesnear.test"
+	SEARCH 14:"http:\/\/chainfilesnear.test" ====================> "https:\/\/chainfilesnear.test"
+	SEARCH 15:"http%3A%2F%2Fchainfilesnear.test" ================> "https%3A%2F%2Fchainfilesnear.test"
+
+EVALUATE TABLE: "et_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_actionscheduler_groups"_______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  2:"C:\/laragon\/www\/chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  4:"C:\laragon\www\chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  5:"C:\\laragon\\www\\chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Cchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  7:"//chainfiles.test" ===============================> "//chainfilesnear.test"
+	SEARCH  8:"\/\/chainfiles.test" =============================> "\/\/chainfilesnear.test"
+	SEARCH  9:"%2F%2Fchainfiles.test" ===========================> "%2F%2Fchainfilesnear.test"
+	SEARCH 10:"//www.chainfiles.test" ===========================> "//chainfilesnear.test"
+	SEARCH 11:"\/\/www.chainfiles.test" =========================> "\/\/chainfilesnear.test"
+	SEARCH 12:"%2F%2Fwww.chainfiles.test" =======================> "%2F%2Fchainfilesnear.test"
+	SEARCH 13:"http://chainfilesnear.test" ======================> "https://chainfilesnear.test"
+	SEARCH 14:"http:\/\/chainfilesnear.test" ====================> "https:\/\/chainfilesnear.test"
+	SEARCH 15:"http%3A%2F%2Fchainfilesnear.test" ================> "https%3A%2F%2Fchainfilesnear.test"
+
+EVALUATE TABLE: "et_actionscheduler_logs"_________________________[ROWS:    10][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  2:"C:\/laragon\/www\/chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  4:"C:\laragon\www\chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  5:"C:\\laragon\\www\\chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Cchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  7:"//chainfiles.test" ===============================> "//chainfilesnear.test"
+	SEARCH  8:"\/\/chainfiles.test" =============================> "\/\/chainfilesnear.test"
+	SEARCH  9:"%2F%2Fchainfiles.test" ===========================> "%2F%2Fchainfilesnear.test"
+	SEARCH 10:"//www.chainfiles.test" ===========================> "//chainfilesnear.test"
+	SEARCH 11:"\/\/www.chainfiles.test" =========================> "\/\/chainfilesnear.test"
+	SEARCH 12:"%2F%2Fwww.chainfiles.test" =======================> "%2F%2Fchainfilesnear.test"
+	SEARCH 13:"http://chainfilesnear.test" ======================> "https://chainfilesnear.test"
+	SEARCH 14:"http:\/\/chainfilesnear.test" ====================> "https:\/\/chainfilesnear.test"
+	SEARCH 15:"http%3A%2F%2Fchainfilesnear.test" ================> "https%3A%2F%2Fchainfilesnear.test"
+
+EVALUATE TABLE: "et_awpcp_ad_regions"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_awpcp_adfees"_________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  2:"C:\/laragon\/www\/chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  4:"C:\laragon\www\chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  5:"C:\\laragon\\www\\chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Cchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  7:"//chainfiles.test" ===============================> "//chainfilesnear.test"
+	SEARCH  8:"\/\/chainfiles.test" =============================> "\/\/chainfilesnear.test"
+	SEARCH  9:"%2F%2Fchainfiles.test" ===========================> "%2F%2Fchainfilesnear.test"
+	SEARCH 10:"//www.chainfiles.test" ===========================> "//chainfilesnear.test"
+	SEARCH 11:"\/\/www.chainfiles.test" =========================> "\/\/chainfilesnear.test"
+	SEARCH 12:"%2F%2Fwww.chainfiles.test" =======================> "%2F%2Fchainfilesnear.test"
+	SEARCH 13:"http://chainfilesnear.test" ======================> "https://chainfilesnear.test"
+	SEARCH 14:"http:\/\/chainfilesnear.test" ====================> "https:\/\/chainfilesnear.test"
+	SEARCH 15:"http%3A%2F%2Fchainfilesnear.test" ================> "https%3A%2F%2Fchainfilesnear.test"
+
+EVALUATE TABLE: "et_awpcp_admeta"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_awpcp_credit_plans"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_awpcp_payments"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_awpcp_tasks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  2:"C:\/laragon\/www\/chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  4:"C:\laragon\www\chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  5:"C:\\laragon\\www\\chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Cchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  7:"//chainfiles.test" ===============================> "//chainfilesnear.test"
+	SEARCH  8:"\/\/chainfiles.test" =============================> "\/\/chainfilesnear.test"
+	SEARCH  9:"%2F%2Fchainfiles.test" ===========================> "%2F%2Fchainfilesnear.test"
+	SEARCH 10:"//www.chainfiles.test" ===========================> "//chainfilesnear.test"
+	SEARCH 11:"\/\/www.chainfiles.test" =========================> "\/\/chainfilesnear.test"
+	SEARCH 12:"%2F%2Fwww.chainfiles.test" =======================> "%2F%2Fchainfilesnear.test"
+	SEARCH 13:"http://chainfilesnear.test" ======================> "https://chainfilesnear.test"
+	SEARCH 14:"http:\/\/chainfilesnear.test" ====================> "https:\/\/chainfilesnear.test"
+	SEARCH 15:"http%3A%2F%2Fchainfilesnear.test" ================> "https%3A%2F%2Fchainfilesnear.test"
+
+EVALUATE TABLE: "et_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_ethpress_addresses"___________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  2:"C:\/laragon\/www\/chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  4:"C:\laragon\www\chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  5:"C:\\laragon\\www\\chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Cchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  7:"//chainfiles.test" ===============================> "//chainfilesnear.test"
+	SEARCH  8:"\/\/chainfiles.test" =============================> "\/\/chainfilesnear.test"
+	SEARCH  9:"%2F%2Fchainfiles.test" ===========================> "%2F%2Fchainfilesnear.test"
+	SEARCH 10:"//www.chainfiles.test" ===========================> "//chainfilesnear.test"
+	SEARCH 11:"\/\/www.chainfiles.test" =========================> "\/\/chainfilesnear.test"
+	SEARCH 12:"%2F%2Fwww.chainfiles.test" =======================> "%2F%2Fchainfilesnear.test"
+	SEARCH 13:"http://chainfilesnear.test" ======================> "https://chainfilesnear.test"
+	SEARCH 14:"http:\/\/chainfilesnear.test" ====================> "https:\/\/chainfilesnear.test"
+	SEARCH 15:"http%3A%2F%2Fchainfilesnear.test" ================> "https%3A%2F%2Fchainfilesnear.test"
+
+EVALUATE TABLE: "et_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_loginizer_logs"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_options"______________________________________[ROWS:   416][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  2:"C:\/laragon\/www\/chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  4:"C:\laragon\www\chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  5:"C:\\laragon\\www\\chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Cchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  7:"//chainfiles.test" ===============================> "//chainfilesnear.test"
+	SEARCH  8:"\/\/chainfiles.test" =============================> "\/\/chainfilesnear.test"
+	SEARCH  9:"%2F%2Fchainfiles.test" ===========================> "%2F%2Fchainfilesnear.test"
+	SEARCH 10:"//www.chainfiles.test" ===========================> "//chainfilesnear.test"
+	SEARCH 11:"\/\/www.chainfiles.test" =========================> "\/\/chainfilesnear.test"
+	SEARCH 12:"%2F%2Fwww.chainfiles.test" =======================> "%2F%2Fchainfilesnear.test"
+	SEARCH 13:"http://chainfilesnear.test" ======================> "https://chainfilesnear.test"
+	SEARCH 14:"http:\/\/chainfilesnear.test" ====================> "https:\/\/chainfilesnear.test"
+	SEARCH 15:"http%3A%2F%2Fchainfilesnear.test" ================> "https%3A%2F%2Fchainfilesnear.test"
+
+EVALUATE TABLE: "et_postmeta"_____________________________________[ROWS:  4035][PG:   2][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  2:"C:\/laragon\/www\/chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  4:"C:\laragon\www\chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  5:"C:\\laragon\\www\\chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Cchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  7:"//chainfiles.test" ===============================> "//chainfilesnear.test"
+	SEARCH  8:"\/\/chainfiles.test" =============================> "\/\/chainfilesnear.test"
+	SEARCH  9:"%2F%2Fchainfiles.test" ===========================> "%2F%2Fchainfilesnear.test"
+	SEARCH 10:"//www.chainfiles.test" ===========================> "//chainfilesnear.test"
+	SEARCH 11:"\/\/www.chainfiles.test" =========================> "\/\/chainfilesnear.test"
+	SEARCH 12:"%2F%2Fwww.chainfiles.test" =======================> "%2F%2Fchainfilesnear.test"
+	SEARCH 13:"http://chainfilesnear.test" ======================> "https://chainfilesnear.test"
+	SEARCH 14:"http:\/\/chainfilesnear.test" ====================> "https:\/\/chainfilesnear.test"
+	SEARCH 15:"http%3A%2F%2Fchainfilesnear.test" ================> "https%3A%2F%2Fchainfilesnear.test"
+
+EVALUATE TABLE: "et_posts"________________________________________[ROWS:  1358][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  2:"C:\/laragon\/www\/chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  4:"C:\laragon\www\chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  5:"C:\\laragon\\www\\chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Cchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  7:"//chainfiles.test" ===============================> "//chainfilesnear.test"
+	SEARCH  8:"\/\/chainfiles.test" =============================> "\/\/chainfilesnear.test"
+	SEARCH  9:"%2F%2Fchainfiles.test" ===========================> "%2F%2Fchainfilesnear.test"
+	SEARCH 10:"//www.chainfiles.test" ===========================> "//chainfilesnear.test"
+	SEARCH 11:"\/\/www.chainfiles.test" =========================> "\/\/chainfilesnear.test"
+	SEARCH 12:"%2F%2Fwww.chainfiles.test" =======================> "%2F%2Fchainfilesnear.test"
+	SEARCH 13:"http://chainfilesnear.test" ======================> "https://chainfilesnear.test"
+	SEARCH 14:"http:\/\/chainfilesnear.test" ====================> "https:\/\/chainfilesnear.test"
+	SEARCH 15:"http%3A%2F%2Fchainfilesnear.test" ================> "https%3A%2F%2Fchainfilesnear.test"
+
+EVALUATE TABLE: "et_rtcl_sessions"________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  2:"C:\/laragon\/www\/chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  4:"C:\laragon\www\chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  5:"C:\\laragon\\www\\chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Cchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  7:"//chainfiles.test" ===============================> "//chainfilesnear.test"
+	SEARCH  8:"\/\/chainfiles.test" =============================> "\/\/chainfilesnear.test"
+	SEARCH  9:"%2F%2Fchainfiles.test" ===========================> "%2F%2Fchainfilesnear.test"
+	SEARCH 10:"//www.chainfiles.test" ===========================> "//chainfilesnear.test"
+	SEARCH 11:"\/\/www.chainfiles.test" =========================> "\/\/chainfilesnear.test"
+	SEARCH 12:"%2F%2Fwww.chainfiles.test" =======================> "%2F%2Fchainfilesnear.test"
+	SEARCH 13:"http://chainfilesnear.test" ======================> "https://chainfilesnear.test"
+	SEARCH 14:"http:\/\/chainfilesnear.test" ====================> "https:\/\/chainfilesnear.test"
+	SEARCH 15:"http%3A%2F%2Fchainfilesnear.test" ================> "https%3A%2F%2Fchainfilesnear.test"
+
+EVALUATE TABLE: "et_social_users"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_term_relationships"___________________________[ROWS:    76][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  2:"C:\/laragon\/www\/chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  4:"C:\laragon\www\chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  5:"C:\\laragon\\www\\chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Cchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  7:"//chainfiles.test" ===============================> "//chainfilesnear.test"
+	SEARCH  8:"\/\/chainfiles.test" =============================> "\/\/chainfilesnear.test"
+	SEARCH  9:"%2F%2Fchainfiles.test" ===========================> "%2F%2Fchainfilesnear.test"
+	SEARCH 10:"//www.chainfiles.test" ===========================> "//chainfilesnear.test"
+	SEARCH 11:"\/\/www.chainfiles.test" =========================> "\/\/chainfilesnear.test"
+	SEARCH 12:"%2F%2Fwww.chainfiles.test" =======================> "%2F%2Fchainfilesnear.test"
+	SEARCH 13:"http://chainfilesnear.test" ======================> "https://chainfilesnear.test"
+	SEARCH 14:"http:\/\/chainfilesnear.test" ====================> "https:\/\/chainfilesnear.test"
+	SEARCH 15:"http%3A%2F%2Fchainfilesnear.test" ================> "https%3A%2F%2Fchainfilesnear.test"
+
+EVALUATE TABLE: "et_term_taxonomy"________________________________[ROWS:    14][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  2:"C:\/laragon\/www\/chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  4:"C:\laragon\www\chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  5:"C:\\laragon\\www\\chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Cchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  7:"//chainfiles.test" ===============================> "//chainfilesnear.test"
+	SEARCH  8:"\/\/chainfiles.test" =============================> "\/\/chainfilesnear.test"
+	SEARCH  9:"%2F%2Fchainfiles.test" ===========================> "%2F%2Fchainfilesnear.test"
+	SEARCH 10:"//www.chainfiles.test" ===========================> "//chainfilesnear.test"
+	SEARCH 11:"\/\/www.chainfiles.test" =========================> "\/\/chainfilesnear.test"
+	SEARCH 12:"%2F%2Fwww.chainfiles.test" =======================> "%2F%2Fchainfilesnear.test"
+	SEARCH 13:"http://chainfilesnear.test" ======================> "https://chainfilesnear.test"
+	SEARCH 14:"http:\/\/chainfilesnear.test" ====================> "https:\/\/chainfilesnear.test"
+	SEARCH 15:"http%3A%2F%2Fchainfilesnear.test" ================> "https%3A%2F%2Fchainfilesnear.test"
+
+EVALUATE TABLE: "et_termmeta"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  2:"C:\/laragon\/www\/chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  4:"C:\laragon\www\chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  5:"C:\\laragon\\www\\chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Cchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  7:"//chainfiles.test" ===============================> "//chainfilesnear.test"
+	SEARCH  8:"\/\/chainfiles.test" =============================> "\/\/chainfilesnear.test"
+	SEARCH  9:"%2F%2Fchainfiles.test" ===========================> "%2F%2Fchainfilesnear.test"
+	SEARCH 10:"//www.chainfiles.test" ===========================> "//chainfilesnear.test"
+	SEARCH 11:"\/\/www.chainfiles.test" =========================> "\/\/chainfilesnear.test"
+	SEARCH 12:"%2F%2Fwww.chainfiles.test" =======================> "%2F%2Fchainfilesnear.test"
+	SEARCH 13:"http://chainfilesnear.test" ======================> "https://chainfilesnear.test"
+	SEARCH 14:"http:\/\/chainfilesnear.test" ====================> "https:\/\/chainfilesnear.test"
+	SEARCH 15:"http%3A%2F%2Fchainfilesnear.test" ================> "https%3A%2F%2Fchainfilesnear.test"
+
+EVALUATE TABLE: "et_terms"________________________________________[ROWS:    14][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  2:"C:\/laragon\/www\/chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  4:"C:\laragon\www\chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  5:"C:\\laragon\\www\\chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Cchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  7:"//chainfiles.test" ===============================> "//chainfilesnear.test"
+	SEARCH  8:"\/\/chainfiles.test" =============================> "\/\/chainfilesnear.test"
+	SEARCH  9:"%2F%2Fchainfiles.test" ===========================> "%2F%2Fchainfilesnear.test"
+	SEARCH 10:"//www.chainfiles.test" ===========================> "//chainfilesnear.test"
+	SEARCH 11:"\/\/www.chainfiles.test" =========================> "\/\/chainfilesnear.test"
+	SEARCH 12:"%2F%2Fwww.chainfiles.test" =======================> "%2F%2Fchainfilesnear.test"
+	SEARCH 13:"http://chainfilesnear.test" ======================> "https://chainfilesnear.test"
+	SEARCH 14:"http:\/\/chainfilesnear.test" ====================> "https:\/\/chainfilesnear.test"
+	SEARCH 15:"http%3A%2F%2Fchainfilesnear.test" ================> "https%3A%2F%2Fchainfilesnear.test"
+
+EVALUATE TABLE: "et_usermeta"_____________________________________[ROWS:   142][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  2:"C:\/laragon\/www\/chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  4:"C:\laragon\www\chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  5:"C:\\laragon\\www\\chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Cchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  7:"//chainfiles.test" ===============================> "//chainfilesnear.test"
+	SEARCH  8:"\/\/chainfiles.test" =============================> "\/\/chainfilesnear.test"
+	SEARCH  9:"%2F%2Fchainfiles.test" ===========================> "%2F%2Fchainfilesnear.test"
+	SEARCH 10:"//www.chainfiles.test" ===========================> "//chainfilesnear.test"
+	SEARCH 11:"\/\/www.chainfiles.test" =========================> "\/\/chainfilesnear.test"
+	SEARCH 12:"%2F%2Fwww.chainfiles.test" =======================> "%2F%2Fchainfilesnear.test"
+	SEARCH 13:"http://chainfilesnear.test" ======================> "https://chainfilesnear.test"
+	SEARCH 14:"http:\/\/chainfilesnear.test" ====================> "https:\/\/chainfilesnear.test"
+	SEARCH 15:"http%3A%2F%2Fchainfilesnear.test" ================> "https%3A%2F%2Fchainfilesnear.test"
+
+EVALUATE TABLE: "et_users"________________________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  2:"C:\/laragon\/www\/chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  4:"C:\laragon\www\chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  5:"C:\\laragon\\www\\chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Cchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  7:"//chainfiles.test" ===============================> "//chainfilesnear.test"
+	SEARCH  8:"\/\/chainfiles.test" =============================> "\/\/chainfilesnear.test"
+	SEARCH  9:"%2F%2Fchainfiles.test" ===========================> "%2F%2Fchainfilesnear.test"
+	SEARCH 10:"//www.chainfiles.test" ===========================> "//chainfilesnear.test"
+	SEARCH 11:"\/\/www.chainfiles.test" =========================> "\/\/chainfilesnear.test"
+	SEARCH 12:"%2F%2Fwww.chainfiles.test" =======================> "%2F%2Fchainfilesnear.test"
+	SEARCH 13:"http://chainfilesnear.test" ======================> "https://chainfilesnear.test"
+	SEARCH 14:"http:\/\/chainfilesnear.test" ====================> "https:\/\/chainfilesnear.test"
+	SEARCH 15:"http%3A%2F%2Fchainfilesnear.test" ================> "https%3A%2F%2Fchainfilesnear.test"
+
+EVALUATE TABLE: "et_wfblockediplog"_______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  2:"C:\/laragon\/www\/chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  4:"C:\laragon\www\chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  5:"C:\\laragon\\www\\chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Cchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  7:"//chainfiles.test" ===============================> "//chainfilesnear.test"
+	SEARCH  8:"\/\/chainfiles.test" =============================> "\/\/chainfilesnear.test"
+	SEARCH  9:"%2F%2Fchainfiles.test" ===========================> "%2F%2Fchainfilesnear.test"
+	SEARCH 10:"//www.chainfiles.test" ===========================> "//chainfilesnear.test"
+	SEARCH 11:"\/\/www.chainfiles.test" =========================> "\/\/chainfilesnear.test"
+	SEARCH 12:"%2F%2Fwww.chainfiles.test" =======================> "%2F%2Fchainfilesnear.test"
+	SEARCH 13:"http://chainfilesnear.test" ======================> "https://chainfilesnear.test"
+	SEARCH 14:"http:\/\/chainfilesnear.test" ====================> "https:\/\/chainfilesnear.test"
+	SEARCH 15:"http%3A%2F%2Fchainfilesnear.test" ================> "https%3A%2F%2Fchainfilesnear.test"
+
+EVALUATE TABLE: "et_wfblocks7"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_wfconfig"_____________________________________[ROWS:   257][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  2:"C:\/laragon\/www\/chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  4:"C:\laragon\www\chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  5:"C:\\laragon\\www\\chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Cchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  7:"//chainfiles.test" ===============================> "//chainfilesnear.test"
+	SEARCH  8:"\/\/chainfiles.test" =============================> "\/\/chainfilesnear.test"
+	SEARCH  9:"%2F%2Fchainfiles.test" ===========================> "%2F%2Fchainfilesnear.test"
+	SEARCH 10:"//www.chainfiles.test" ===========================> "//chainfilesnear.test"
+	SEARCH 11:"\/\/www.chainfiles.test" =========================> "\/\/chainfilesnear.test"
+	SEARCH 12:"%2F%2Fwww.chainfiles.test" =======================> "%2F%2Fchainfilesnear.test"
+	SEARCH 13:"http://chainfilesnear.test" ======================> "https://chainfilesnear.test"
+	SEARCH 14:"http:\/\/chainfilesnear.test" ====================> "https:\/\/chainfilesnear.test"
+	SEARCH 15:"http%3A%2F%2Fchainfilesnear.test" ================> "https%3A%2F%2Fchainfilesnear.test"
+
+EVALUATE TABLE: "et_wfcrawlers"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_wffilechanges"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_wffilemods"___________________________________[ROWS:   726][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  2:"C:\/laragon\/www\/chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  4:"C:\laragon\www\chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  5:"C:\\laragon\\www\\chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Cchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  7:"//chainfiles.test" ===============================> "//chainfilesnear.test"
+	SEARCH  8:"\/\/chainfiles.test" =============================> "\/\/chainfilesnear.test"
+	SEARCH  9:"%2F%2Fchainfiles.test" ===========================> "%2F%2Fchainfilesnear.test"
+	SEARCH 10:"//www.chainfiles.test" ===========================> "//chainfilesnear.test"
+	SEARCH 11:"\/\/www.chainfiles.test" =========================> "\/\/chainfilesnear.test"
+	SEARCH 12:"%2F%2Fwww.chainfiles.test" =======================> "%2F%2Fchainfilesnear.test"
+	SEARCH 13:"http://chainfilesnear.test" ======================> "https://chainfilesnear.test"
+	SEARCH 14:"http:\/\/chainfilesnear.test" ====================> "https:\/\/chainfilesnear.test"
+	SEARCH 15:"http%3A%2F%2Fchainfilesnear.test" ================> "https%3A%2F%2Fchainfilesnear.test"
+
+EVALUATE TABLE: "et_wfhits"_______________________________________[ROWS:    40][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  2:"C:\/laragon\/www\/chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  4:"C:\laragon\www\chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  5:"C:\\laragon\\www\\chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Cchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  7:"//chainfiles.test" ===============================> "//chainfilesnear.test"
+	SEARCH  8:"\/\/chainfiles.test" =============================> "\/\/chainfilesnear.test"
+	SEARCH  9:"%2F%2Fchainfiles.test" ===========================> "%2F%2Fchainfilesnear.test"
+	SEARCH 10:"//www.chainfiles.test" ===========================> "//chainfilesnear.test"
+	SEARCH 11:"\/\/www.chainfiles.test" =========================> "\/\/chainfilesnear.test"
+	SEARCH 12:"%2F%2Fwww.chainfiles.test" =======================> "%2F%2Fchainfilesnear.test"
+	SEARCH 13:"http://chainfilesnear.test" ======================> "https://chainfilesnear.test"
+	SEARCH 14:"http:\/\/chainfilesnear.test" ====================> "https:\/\/chainfilesnear.test"
+	SEARCH 15:"http%3A%2F%2Fchainfilesnear.test" ================> "https%3A%2F%2Fchainfilesnear.test"
+
+EVALUATE TABLE: "et_wfhoover"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_wfissues"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_wfknownfilelist"______________________________[ROWS:  6667][PG:   2][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  2:"C:\/laragon\/www\/chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  4:"C:\laragon\www\chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  5:"C:\\laragon\\www\\chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Cchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  7:"//chainfiles.test" ===============================> "//chainfilesnear.test"
+	SEARCH  8:"\/\/chainfiles.test" =============================> "\/\/chainfilesnear.test"
+	SEARCH  9:"%2F%2Fchainfiles.test" ===========================> "%2F%2Fchainfilesnear.test"
+	SEARCH 10:"//www.chainfiles.test" ===========================> "//chainfilesnear.test"
+	SEARCH 11:"\/\/www.chainfiles.test" =========================> "\/\/chainfilesnear.test"
+	SEARCH 12:"%2F%2Fwww.chainfiles.test" =======================> "%2F%2Fchainfilesnear.test"
+	SEARCH 13:"http://chainfilesnear.test" ======================> "https://chainfilesnear.test"
+	SEARCH 14:"http:\/\/chainfilesnear.test" ====================> "https:\/\/chainfilesnear.test"
+	SEARCH 15:"http%3A%2F%2Fchainfilesnear.test" ================> "https%3A%2F%2Fchainfilesnear.test"
+
+EVALUATE TABLE: "et_wflivetraffichuman"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_wflocs"_______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_wflogins"_____________________________________[ROWS:    78][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  2:"C:\/laragon\/www\/chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  4:"C:\laragon\www\chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  5:"C:\\laragon\\www\\chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Cchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  7:"//chainfiles.test" ===============================> "//chainfilesnear.test"
+	SEARCH  8:"\/\/chainfiles.test" =============================> "\/\/chainfilesnear.test"
+	SEARCH  9:"%2F%2Fchainfiles.test" ===========================> "%2F%2Fchainfilesnear.test"
+	SEARCH 10:"//www.chainfiles.test" ===========================> "//chainfilesnear.test"
+	SEARCH 11:"\/\/www.chainfiles.test" =========================> "\/\/chainfilesnear.test"
+	SEARCH 12:"%2F%2Fwww.chainfiles.test" =======================> "%2F%2Fchainfilesnear.test"
+	SEARCH 13:"http://chainfilesnear.test" ======================> "https://chainfilesnear.test"
+	SEARCH 14:"http:\/\/chainfilesnear.test" ====================> "https:\/\/chainfilesnear.test"
+	SEARCH 15:"http%3A%2F%2Fchainfilesnear.test" ================> "https%3A%2F%2Fchainfilesnear.test"
+
+EVALUATE TABLE: "et_wfls_2fa_secrets"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_wfls_settings"________________________________[ROWS:    23][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  2:"C:\/laragon\/www\/chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  4:"C:\laragon\www\chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  5:"C:\\laragon\\www\\chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Cchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  7:"//chainfiles.test" ===============================> "//chainfilesnear.test"
+	SEARCH  8:"\/\/chainfiles.test" =============================> "\/\/chainfilesnear.test"
+	SEARCH  9:"%2F%2Fchainfiles.test" ===========================> "%2F%2Fchainfilesnear.test"
+	SEARCH 10:"//www.chainfiles.test" ===========================> "//chainfilesnear.test"
+	SEARCH 11:"\/\/www.chainfiles.test" =========================> "\/\/chainfilesnear.test"
+	SEARCH 12:"%2F%2Fwww.chainfiles.test" =======================> "%2F%2Fchainfilesnear.test"
+	SEARCH 13:"http://chainfilesnear.test" ======================> "https://chainfilesnear.test"
+	SEARCH 14:"http:\/\/chainfilesnear.test" ====================> "https:\/\/chainfilesnear.test"
+	SEARCH 15:"http%3A%2F%2Fchainfilesnear.test" ================> "https%3A%2F%2Fchainfilesnear.test"
+
+EVALUATE TABLE: "et_wfnotifications"______________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  2:"C:\/laragon\/www\/chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  4:"C:\laragon\www\chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  5:"C:\\laragon\\www\\chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Cchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  7:"//chainfiles.test" ===============================> "//chainfilesnear.test"
+	SEARCH  8:"\/\/chainfiles.test" =============================> "\/\/chainfilesnear.test"
+	SEARCH  9:"%2F%2Fchainfiles.test" ===========================> "%2F%2Fchainfilesnear.test"
+	SEARCH 10:"//www.chainfiles.test" ===========================> "//chainfilesnear.test"
+	SEARCH 11:"\/\/www.chainfiles.test" =========================> "\/\/chainfilesnear.test"
+	SEARCH 12:"%2F%2Fwww.chainfiles.test" =======================> "%2F%2Fchainfilesnear.test"
+	SEARCH 13:"http://chainfilesnear.test" ======================> "https://chainfilesnear.test"
+	SEARCH 14:"http:\/\/chainfilesnear.test" ====================> "https:\/\/chainfilesnear.test"
+	SEARCH 15:"http%3A%2F%2Fchainfilesnear.test" ================> "https%3A%2F%2Fchainfilesnear.test"
+
+EVALUATE TABLE: "et_wfpendingissues"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_wfreversecache"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_wfsnipcache"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_wfstatus"_____________________________________[ROWS:  1026][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  2:"C:\/laragon\/www\/chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  4:"C:\laragon\www\chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  5:"C:\\laragon\\www\\chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Cchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  7:"//chainfiles.test" ===============================> "//chainfilesnear.test"
+	SEARCH  8:"\/\/chainfiles.test" =============================> "\/\/chainfilesnear.test"
+	SEARCH  9:"%2F%2Fchainfiles.test" ===========================> "%2F%2Fchainfilesnear.test"
+	SEARCH 10:"//www.chainfiles.test" ===========================> "//chainfilesnear.test"
+	SEARCH 11:"\/\/www.chainfiles.test" =========================> "\/\/chainfilesnear.test"
+	SEARCH 12:"%2F%2Fwww.chainfiles.test" =======================> "%2F%2Fchainfilesnear.test"
+	SEARCH 13:"http://chainfilesnear.test" ======================> "https://chainfilesnear.test"
+	SEARCH 14:"http:\/\/chainfilesnear.test" ====================> "https:\/\/chainfilesnear.test"
+	SEARCH 15:"http%3A%2F%2Fchainfilesnear.test" ================> "https%3A%2F%2Fchainfilesnear.test"
+
+EVALUATE TABLE: "et_wftrafficrates"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_wpforms_tasks_meta"___________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/laragon/www/chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  2:"C:\/laragon\/www\/chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  3:"C%3A%2Flaragon%2Fwww%2Fchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  4:"C:\laragon\www\chainfiles" =======================> "C:/laragon/www/chainfilesnear"
+	SEARCH  5:"C:\\laragon\\www\\chainfiles" ====================> "C:\/laragon\/www\/chainfilesnear"
+	SEARCH  6:"C%3A%5Claragon%5Cwww%5Cchainfiles" ===============> "C%3A%2Flaragon%2Fwww%2Fchainfilesnear"
+	SEARCH  7:"//chainfiles.test" ===============================> "//chainfilesnear.test"
+	SEARCH  8:"\/\/chainfiles.test" =============================> "\/\/chainfilesnear.test"
+	SEARCH  9:"%2F%2Fchainfiles.test" ===========================> "%2F%2Fchainfilesnear.test"
+	SEARCH 10:"//www.chainfiles.test" ===========================> "//chainfilesnear.test"
+	SEARCH 11:"\/\/www.chainfiles.test" =========================> "\/\/chainfilesnear.test"
+	SEARCH 12:"%2F%2Fwww.chainfiles.test" =======================> "%2F%2Fchainfilesnear.test"
+	SEARCH 13:"http://chainfilesnear.test" ======================> "https://chainfilesnear.test"
+	SEARCH 14:"http:\/\/chainfilesnear.test" ====================> "https:\/\/chainfilesnear.test"
+	SEARCH 15:"http%3A%2F%2Fchainfilesnear.test" ================> "https%3A%2F%2Fchainfilesnear.test"
+
+EVALUATE TABLE: "et_wpvivid_scan_result"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "et_wpvivid_unused_uploads_files"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:51 	|	 Rows:14915 	|	 Cells:77423 
+UPDATED:	Tables:5 	|	 Rows:10 	|	 Cells:11 
+ERRORS:		0 
+RUNTIME:	0.361700 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 10:09:23 - RUNTIME: 0.4490 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
